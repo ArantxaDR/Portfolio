@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.container-btn {
+  background-color: $colorprimary;
+  height: 30px;
+  width: 150px;
+  font-family: $fontprimary;
+  border-radius: 10px;
+  margin-top: 30px;
+}

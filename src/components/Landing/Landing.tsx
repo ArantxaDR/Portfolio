@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
-import LandingButton from "../Buttons/LandingButton";
+import LandingButton from "../Buttons/landingBtn/LandingButton";
 import "./_landing.scss";
+
 const phrases = [
-  "Hello, my name is Arantxa",
-  "I'm a front end developer.",
-  "Welcome to my portfolio."
+  "Hola, mi nombre es Arantxa.",
+  "Soy desarrolladora frontend Jr.",
+  "Bienvenida/o a mi portfolio."
 ];
 
 export default function Landing() {
@@ -34,7 +35,7 @@ export default function Landing() {
 
     const timeout = setTimeout(() => {
       setSubIndex((prev) => prev + (reverse ? -1 : 1));
-    }, Math.max(reverse ? 75 : subIndex === phrases[index].length ? 1000 : 150, Math.random() * 350));
+    }, Math.max(reverse ? 75 : subIndex === phrases[index].length ? 900 : 150, Math.random() * 350));
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, reverse]);
@@ -43,18 +44,20 @@ export default function Landing() {
   useEffect(() => {
     const timeout2 = setTimeout(() => {
       setBlink((prev) => !prev);
-    }, 500);
+    }, 300);
     return () => clearTimeout(timeout2);
   }, [blink]);
 
   return (
     <>
-      <div className="container">
-        <main className="container-title">
+      <div className="landing-container">
+        <main className="landing-container-title">
           <h1>{`${phrases[index].substring(0, subIndex)}${
             blink ? "|" : ""
           }`}</h1>
         </main>
+      </div>
+      <div className="btn">
         <LandingButton />
       </div>
     </>

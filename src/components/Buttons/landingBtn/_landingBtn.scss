@@ -1,0 +1,19 @@
+@import "../../../styles/variables";
+
+.container-btn {
+  outline-style: none;
+  background-color: $colorprimary;
+  height: 44px;
+  width: 160px;
+  font-family: $fontprimary;
+  border-radius: 10px;
+  border-bottom: 4px solid hsl(221, 89%, 85%);
+  border-top: 0px solid rgba(249, 250, 251);
+  transition: all 0.2s ease-in-out;
+  color: $colorcuaternary;
+  &:hover {
+    background-color: $colorterciary;
+    border-bottom-width: 0;
+    border-top-width: 4px;
+  }
+}

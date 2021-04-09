@@ -1,12 +1,22 @@
 @import "../../styles/variables";
 
-.container {
-  height: 100vh;
+body {
+  background-color: $colorcuaternary;
+}
+.landing-container {
+  height: 16rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: $fontprimary;
-
   color: $colorprimary;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  cursor: grabbing;
 }

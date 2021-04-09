@@ -1,6 +1,12 @@
 @import "../../styles/variables";
 
 .footer {
+  text-align: center;
   color: $colorprimary;
-  font-family: $fontsecondary;
+  font-family: $fontprimary;
+  font-size: small;
+  &-img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }

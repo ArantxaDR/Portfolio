@@ -1,0 +1,23 @@
+@import "../../styles/variables";
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $colorprimary;
+  border-top: 3px dashed $colorred;
+  border-left: 3px dashed $colorred;
+  border-right: 3px dashed $colorred;
+}
+.section-container__contactList {
+  list-style: none;
+}
+.section-container__contactListItem {
+  color: $colorprimary;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: $colorprimary;
+}

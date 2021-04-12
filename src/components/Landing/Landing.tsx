@@ -52,9 +52,9 @@ export default function Landing() {
     <>
       <div className="landing-container">
         <main className="landing-container-title">
-          <h1>{`${phrases[index].substring(0, subIndex)}${
+          <h2>{`${phrases[index].substring(0, subIndex)}${
             blink ? "|" : ""
-          }`}</h1>
+          }`}</h2>
         </main>
       </div>
       <div className="btn">

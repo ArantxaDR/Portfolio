@@ -32,7 +32,7 @@ const Aboutme = () => {
       <div className="controls-container_btn">
         <div className="controls-container_btn__projects">
           <p className="controls-container_btn__projects___text">Proyectos</p>
-          <Link to="/contact">
+          <Link to="/projects">
             <button className="controls-container_btn__check"></button>
           </Link>
         </div>

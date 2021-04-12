@@ -6,18 +6,24 @@
   justify-content: center;
   align-items: center;
   color: $colorprimary;
-  border-top: 3px dashed $colorred;
-  border-left: 3px dashed $colorred;
-  border-right: 3px dashed $colorred;
+  border: 2.5rem dashed $colorgrey;
+  padding: 1em;
+  width: 70%;
+  height: 70%;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  &__contactList {
+    list-style: none;
+  }
+  &__contactListItem {
+    display: inline;
+    padding-right: 2em;
+  }
 }
-.section-container__contactList {
-  list-style: none;
-}
-.section-container__contactListItem {
-  color: $colorprimary;
-}
+
 .icon {
   width: 2rem;
   height: 2rem;
-  color: $colorprimary;
 }

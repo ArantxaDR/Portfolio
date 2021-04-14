@@ -1,4 +1,5 @@
 import React from "react";
+import "./_contact.scss";
 import Back from "../Buttons/backBtn/Back";
 import mail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";

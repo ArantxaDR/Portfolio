@@ -1,6 +1,6 @@
 import React from "react";
 import Back from "../Buttons/backBtn/Back";
-import mail from "../../assets/gmail.png";
+
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import codepen from "../../assets/codepen.png";
@@ -8,7 +8,7 @@ import "./_contact.scss";
 
 const Contact = () => {
   return (
-    <>
+    <div className="container">
       <section className="section-container">
         <h1 className="section-container__title">Es peligroso salir solo.</h1>
         <h2 className="section-container__title">Usa esto</h2>
@@ -24,12 +24,7 @@ const Contact = () => {
               rel="noreferrer"
               href="mailto:arantxaderuiz@gmail.com"
               title="Send email">
-              <img
-                className="icon"
-                src={mail}
-                alt="Icono email"
-                title="Logo Email"
-              />
+              <i className="far fa-envelope" title="Logo Email"></i>
             </a>
           </li>
           <li className="section-container__contactListItem github">
@@ -77,7 +72,7 @@ const Contact = () => {
         </ul>
       </section>
       <Back />
-    </>
+    </div>
   );
 };
 

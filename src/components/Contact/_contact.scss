@@ -1,19 +1,19 @@
 @import "../../styles/variables";
 
+body {
+  background-image: url(../../assets/linksword.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: $colorprimary;
-  border: 2.5rem dashed $colorgrey;
   padding: 1em;
-  width: 70%;
-  height: 70%;
-  top: 50%;
-  left: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
+
   &__contactList {
     list-style: none;
   }
@@ -23,7 +23,8 @@
   }
 }
 
-.icon {
+.far {
   width: 2rem;
   height: 2rem;
+  color: $colorprimary;
 }

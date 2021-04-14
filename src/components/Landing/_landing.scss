@@ -4,13 +4,10 @@ body {
   background-color: $colorcuaternary;
 }
 .landing-container {
-  height: 16rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-family: $fontprimary;
   color: $colorprimary;
+  text-align: center;
+  padding-top: 15%;
 }
 .btn {
   display: flex;

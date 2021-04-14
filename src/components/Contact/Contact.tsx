@@ -1,23 +1,22 @@
 import React from "react";
 import "./_contact.scss";
 import Back from "../Buttons/backBtn/Back";
-import mail from "../../assets/gmail.png";
+
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import codepen from "../../assets/codepen.png";
+import "./_contact.scss";
 
 const Contact = () => {
   return (
-    <div className="contact-continer">
+    <div className="container">
       <section className="section-container">
-        <h3 className="section-container__title">
-          Es peligroso salir solo. <span className="">Usa esto</span>
-        </h3>
+        <h1 className="section-container__title">Es peligroso salir solo.</h1>
+        <h2 className="section-container__title">Usa esto</h2>
         <p className="section-container__text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam,
-          optio aut aliquam quidem veniam corporis sint non consectetur
-          accusamus ad deleniti est ab repudiandae ipsam quae neque perferendis.
-          Quisquam.
+          Tanto si estás buscando una desarrolladora frontend junior para una
+          nueva aventura como si crees que podemos colaborar y compartir
+          conocimientos, no dudes en contactar.
         </p>
         <ul className="section-container__contactList">
           <li className="section-container__contactListItem mail">
@@ -26,7 +25,7 @@ const Contact = () => {
               rel="noreferrer"
               href="mailto:arantxaderuiz@gmail.com"
               title="Send email">
-              <img src={mail} alt="Icono email" title="Logo Email" />
+              <i className="far fa-envelope" title="Logo Email"></i>
             </a>
           </li>
           <li className="section-container__contactListItem github">
@@ -35,7 +34,12 @@ const Contact = () => {
               rel="noreferrer"
               href="https://github.com/ArantxaDR"
               title="Access GitHub">
-              <img src={github} alt="Icono github" title="Logo Github" />{" "}
+              <img
+                className="icon"
+                src={github}
+                alt="Icono github"
+                title="Logo Github"
+              />{" "}
             </a>
           </li>
           <li className="section-container__contactListItem linkedin">
@@ -44,7 +48,12 @@ const Contact = () => {
               rel="noreferrer"
               href="https://www.linkedin.com/in/arantxadelgadoruiz/"
               title="Access Linkedin">
-              <img src={linkedin} alt="Icono linkedin" title="Logo Linkedin" />
+              <img
+                className="icon"
+                src={linkedin}
+                alt="Icono linkedin"
+                title="Logo Linkedin"
+              />
             </a>
           </li>
           <li className="section-container__contactListItem codepen">
@@ -53,7 +62,12 @@ const Contact = () => {
               rel="noreferrer"
               href="https://codepen.io/arantxadr"
               title="Access Codepen">
-              <img src={codepen} alt="Icono codepen" title="Logo Codepen" />
+              <img
+                className="icon"
+                src={codepen}
+                alt="Icono codepen"
+                title="Logo Codepen"
+              />
             </a>
           </li>
         </ul>

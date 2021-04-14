@@ -3,7 +3,6 @@
 body {
   background-image: url(../../assets/linksword.png);
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
 }
 .section-container {
@@ -23,7 +22,7 @@ body {
   }
 }
 
-.far {
+.icon {
   width: 2rem;
   height: 2rem;
   color: $colorprimary;

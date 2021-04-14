@@ -1,7 +1,6 @@
 import React from "react";
-import "./_contact.scss";
 import Back from "../Buttons/backBtn/Back";
-
+import mail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
 import codepen from "../../assets/codepen.png";
@@ -25,7 +24,12 @@ const Contact = () => {
               rel="noreferrer"
               href="mailto:arantxaderuiz@gmail.com"
               title="Send email">
-              <i className="far fa-envelope" title="Logo Email"></i>
+              <img
+                className="icon"
+                src={mail}
+                alt="Icono email"
+                title="Logo Email"
+              />
             </a>
           </li>
           <li className="section-container__contactListItem github">

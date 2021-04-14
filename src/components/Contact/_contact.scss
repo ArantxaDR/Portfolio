@@ -3,6 +3,7 @@
 body {
   background-image: url(../../assets/linksword.png);
   background-size: cover;
+
   background-position: center;
 }
 .section-container {
@@ -23,7 +24,6 @@ body {
 }
 
 .icon {
-  width: 2rem;
   height: 2rem;
   color: $colorprimary;
 }

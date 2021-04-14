@@ -3,7 +3,7 @@ import Back from "../Buttons/backBtn/Back";
 import mail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
-import codepen from "../../assets/codepen.png";
+import codepen from "../../assets/codepenlogo.png";
 import "./_contact.scss";
 
 const Contact = () => {

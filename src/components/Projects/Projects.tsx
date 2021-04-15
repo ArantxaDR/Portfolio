@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="projects-container">
         <h1 className="projects-container__title">Proyectos</h1>
         <div className="projects-container__list">
-          {ProjectData.map((project: object, id: number) => (
+          {ProjectData.map((project: any, id: number) => (
             <Project project={project} key={id} />
           ))}
         </div>

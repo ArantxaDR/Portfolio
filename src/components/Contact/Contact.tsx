@@ -1,4 +1,3 @@
-import React from "react";
 import Back from "../Buttons/backBtn/Back";
 import mail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";

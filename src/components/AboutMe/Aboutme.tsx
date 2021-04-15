@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./_aboutme.scss";
+
 import Arantxa from "../../assets/Arantxa.jpg";
 
 const Aboutme = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import gameicon from "../../assets/consola.png";
 import "./_footer.scss";
 const Footer = () => {

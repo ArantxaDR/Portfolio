@@ -1,12 +1,12 @@
 @import "../../../styles/variables";
 
-.projects-container {
-  border: 2px solid yellow;
+.project-container {
+  border: 4px solid $colorterciary;
   height: 20rem;
   width: 15rem;
   padding: 1em;
   margin-bottom: 2em;
-  background-color: yellow;
+  background-color: $colorgrey;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;

@@ -1,23 +1,20 @@
-import React from "react";
 import "./_project.scss";
-import rick from "../../../assets/Rick.png";
-export default function Project() {
+
+export default function Project({ project }: { project: any }) {
   return (
-    <div className="projects-container">
-      <header className="projects-container__title">Rick y Morty </header>
+    <div className="project-container" key={project.id}>
+      <header className="project-container__title">{project.name}</header>
       <img
-        className="projects-container__img"
-        src={rick}
-        alt="Imagen de la aplicación de Rick y Morty"
+        className="project-container__img"
+        src={project.preview}
+        alt={project.alt}
       />
-      <p className="projects-container__text">
-        Explicación del projecto con stack tecnológico
-      </p>
-      <ul className="projects-container__list">
-        <li className="projects-container__listItem">web</li>
-        <li className="projects-container__listItem">Repo</li>
+      <p className="project-container__text">{project.description}</p>
+      <ul className="project-container__list">
+        <li className="project-container__listItem">{project.webpage}</li>
+        <li className="project-container__listItem">{project.repository}</li>
       </ul>
-      <p className="projects-container__text">tecnologias</p>
+      <p className="project-container__text">{project.technologies}</p>
     </div>
   );
 }

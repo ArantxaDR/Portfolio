@@ -7,6 +7,7 @@ console.log(ProjectData);
 const Projects = () => {
   return (
     <>
+      <Back />
       <div className="projects-container">
         <h1 className="projects-container__title">Proyectos</h1>
         <div className="projects-container__list">
@@ -15,8 +16,6 @@ const Projects = () => {
           ))}
         </div>
       </div>
-
-      <Back />
     </>
   );
 };

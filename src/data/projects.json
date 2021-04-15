@@ -4,11 +4,11 @@
         "name": "Catrina's awesome profile-cards",
         "webpage": "https://arantxadr.github.io/Catrinas-awesome-profile-cards/",
         "repository": "https://github.com/ArantxaDR/Catrinas-awesome-profile-cards",
-        "preview": "../assets/catrina.png",
+        "preview":"./assets/catrina.png",
         "alt":"Imagen de la aplicación de Catrina's",
         "selected": true,
         "technologies" : "HTML//CSS//JAVASCRIPT",
-        "description": "Proyecto en en equipo: creación de una app web de cración de tarjetas de visita, utilizando JavaScript, CSS, SASS y HTML. También se utilizó Gulp para automatización de tareas y Git y GitHub para el control de versiones."
+        "description": "Proyecto en equipo: creación de una app web de tarjetas de visita, utilizando JavaScript, CSS, SASS y HTML. También se utilizó Gulp para automatización de tareas y Git y GitHub para el control de versiones."
     },
     {
         "id": 1,
@@ -19,7 +19,7 @@
         "alt":"Imagen de la aplicación de Rick y Morty",
         "selected": false,
         "technologies" : "HTML//CSS//SASS//JAVASCRIPT//REACT JS",
-        "description": "Aplicación web de gestión de personajes de Rick y Morty, utilizando React, JavaScript, HTML5, CSS3 y SASS. También se utilizaron Git y GitHub para el control de versiones."
+        "description": "Aplicación web de búsqueda de personajes de Rick y Morty, utilizando React, JavaScript, HTML5, CSS3 y SASS. También se utilizaron Git y GitHub para el control de versiones."
     },
     {
         "id": 2,

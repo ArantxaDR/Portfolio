@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    color: $colorprimary;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 2em;
+    padding: 2em;
+  }
+}
+//Tablet
+@media all and (min-width: 768px) {
+  .projects-container__list {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+//Desktop
+@media all and (min-width: 1200px) {
+  .projects-container__list {
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

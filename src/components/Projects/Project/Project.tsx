@@ -12,6 +12,7 @@ export default function Project({ project }: { project: any }) {
         alt={project.alt}
       />
       <p className="project-container__text">{project.description}</p>
+
       <ul className="project-container__list">
         <li className="project-container__listItem">
           <a
@@ -42,7 +43,6 @@ export default function Project({ project }: { project: any }) {
           </a>
         </li>
       </ul>
-      <p className="project-container__text">{project.technologies}</p>
     </div>
   );
 }

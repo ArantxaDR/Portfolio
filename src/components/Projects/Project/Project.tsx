@@ -4,7 +4,7 @@ import disk from "../../../assets/floppy.png";
 
 export default function Project({ project }: { project: any }) {
   return (
-    <div className="project-container" key={project.id}>
+    <div className="project-container">
       <h4 className="project-container__title">{project.name}</h4>
       <img
         className="project-container__img"

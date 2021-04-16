@@ -1,282 +1,293 @@
 @import "../../styles/variables";
 
-.gameboy {
-  position: relative;
-  font-family: $fontsecondary;
-  width: 50rem;
-  height: 23rem;
-  background-color: $colorterciary;
-  clip-path: polygon(
-    0 21%,
-    12% 13%,
-    20% 4%,
-    80% 4%,
-    89% 13%,
-    104% 22%,
-    100% 89%,
-    89% 95%,
-    85% 100%,
-    15% 100%,
-    11% 95%,
-    0 88%
-  );
-  border-radius: 20em/8em;
-  margin: 4rem auto;
-  color: $colorprimary;
+.aboutme-wrapper {
+  background-color: $colorgrey;
+  height: 95vh;
+  width: 100%;
+  padding-top: 5%;
 }
-.power {
-  content: "";
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: $colorred;
-  right: 10%;
-  top: 15%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  color: $colorgrey;
 
-  &::before {
-    content: "POWER";
+//media desktop and tablet
+@media all and (min-width: 768px) {
+  .gameboy {
     position: relative;
-    font-size: 0.8rem;
-    top: 0.7rem;
-    left: 2rem;
+    font-family: $fontsecondary;
+    width: 50rem;
+    height: 23rem;
+    background-color: $colorterciary;
+    clip-path: polygon(
+      0 21%,
+      12% 13%,
+      20% 4%,
+      80% 4%,
+      89% 13%,
+      104% 22%,
+      100% 89%,
+      89% 95%,
+      85% 100%,
+      15% 100%,
+      11% 95%,
+      0 88%
+    );
+    border-radius: 20em/8em;
+    margin-left: 18%;
+
+    color: $colorprimary;
   }
-}
-.screen-container {
-  position: relative;
-  top: 2rem;
-  left: 10rem;
-  height: 18rem;
-  width: 60%;
-  border-radius: 20em/5em;
-  background-color: $colorcuaternary;
-  padding: 1.7rem;
-  box-shadow: rgb(85, 86, 87) 3px 3px 6px 0px inset,
-    rgba(20, 18, 18, 0.5) -3px -3px 6px 1px inset;
-
-  .screen {
-    position: relative;
-    box-sizing: border-box;
-    background-color: $colorsecondary;
-    width: 24rem;
-    height: 13rem;
-    top: 1rem;
-    left: 1.3rem;
-
+  .power {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: $colorred;
+    right: 10%;
+    top: 15%;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    padding: 1.2rem;
-    box-shadow: inset 3px 3px rgba(0, 0, 0, 0.15);
-    &_photo {
-      align-self: flex-start;
-      margin-top: 0.5;
-      border: solid 1px #fbfbef;
-      width: 5rem;
-      height: 5rem;
-      border-radius: 30%;
-    }
-    &_title {
-      display: table;
-      padding: 0 0.5rem;
-      position: relative;
-    }
-    &_text {
-      border-color: $colorcuaternary;
-      border-style: solid;
-      border-width: 1px;
-      text-align: center;
-      padding: 0 0.5rem;
-      margin: 1.2rem 1rem 1rem;
-      font-size: 0.7em;
-      background-color: $colorsecondary;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: $colorgrey;
 
-      > :last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-}
-.controls-container {
-  display: block;
-  position: relative;
-  &_direction {
-    position: relative;
-    margin-left: 3rem;
     &::before {
-      content: "";
-      position: absolute;
-      z-index: 1;
-      bottom: 9rem;
-      left: 1rem;
-      width: 1rem;
-      height: 1rem;
-      background-color: $colorprimary;
-      border-radius: 100%;
-    }
-    &__vertical,
-    &__horizontal {
-      position: absolute;
-      bottom: 7.7rem;
-      left: 1rem;
-      width: 1.5rem;
-      height: 4rem;
-      background: $colorprimary;
-      border-radius: 5px;
-
-      &::before {
-        content: "";
-        position: relative;
-        top: 3.5rem;
-        left: 0.5rem;
-        width: 0;
-        height: 0;
-        border-left: 0.3rem solid transparent;
-        border-right: 0.3rem solid transparent;
-        border-top: 0.3rem solid $colorgrey;
-      }
-      &::after {
-        content: "";
-        position: relative;
-        top: 1rem;
-        left: -0.2rem;
-        width: 0;
-        height: 0;
-        border-left: 0.3rem solid transparent;
-        border-right: 0.3rem solid transparent;
-        border-top: 0.3rem solid $colorgrey;
-      }
-    }
-    &__horizontal {
-      transform: rotate(90deg);
-    }
-    &__vertical {
-      box-shadow: 13px 0px 16px 0px $colorcuaternary;
+      content: "POWER";
+      position: relative;
+      font-size: 0.8rem;
+      top: 0.7rem;
+      left: 2rem;
     }
   }
-  &_AB {
-    position: absolute;
-    left: 84%;
-    top: 35%;
-    transform: rotate(-21deg);
-    &__A {
-      margin-inline: 15px;
-    }
+  .screen-container {
+    position: relative;
+    top: 2rem;
+    left: 10rem;
+    height: 18rem;
+    width: 60%;
+    border-radius: 20em/5em;
+    background-color: $colorcuaternary;
+    padding: 1.7rem;
+    box-shadow: rgb(85, 86, 87) 3px 3px 6px 0px inset,
+      rgba(20, 18, 18, 0.5) -3px -3px 6px 1px inset;
 
-    &__A,
-    &__B {
-      width: 2rem;
-      height: 2rem;
-      border-radius: 100%;
-      left: 15%;
-      top: 50%;
-      outline: none;
-      background-color: $colorgrey;
-      color: $colorprimary;
-      cursor: grabbing;
-    }
-  }
-  &_btn {
-    position: absolute;
-    bottom: 18%;
-    left: 6%;
-    transform: rotate(10deg);
-    display: flex;
-    flex-direction: column;
+    .screen {
+      position: relative;
+      box-sizing: border-box;
+      background-color: $colorsecondary;
+      width: 24rem;
+      height: 13rem;
+      top: 1rem;
+      left: 1.3rem;
 
-    &__check {
-      width: 1.5rem;
-      height: 1.5rem;
-      background: $colorgrey;
-      border-radius: 50%;
-      outline: none;
-      transition: 0.4s;
-      box-shadow: inset 0 0 5px $colorcuaternary;
-
-      cursor: grabbing;
-    }
-    &__projects,
-    &__contact {
-      border-radius: 35%;
       display: flex;
-      flex-direction: row;
+      flex-direction: row-reverse;
       justify-content: center;
       align-items: center;
-      padding-left: 0.2em;
-      box-shadow: $colorcuaternary 3px 3px 6px 0px inset,
-        $colorterciary -3px -3px 6px 1px inset;
-      &___text {
-        margin-right: 0.2em;
-        font-size: small;
-        text-shadow: 5px 5px 5px $colorterciary;
+      padding: 1.2rem;
+      box-shadow: inset 3px 3px rgba(0, 0, 0, 0.15);
+      &_photo {
+        align-self: flex-start;
+        margin-top: 0.5;
+        border: solid 1px #fbfbef;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 30%;
+      }
+      &_title {
+        display: table;
+        padding: 0 0.5rem;
+        position: relative;
+      }
+      &_text {
+        border-color: $colorcuaternary;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        padding: 0 0.5rem;
+        margin: 1.2rem 1rem 1rem;
+        font-size: 0.7em;
+        background-color: $colorsecondary;
+
+        > :last-child {
+          margin-bottom: 0;
+        }
       }
     }
-    &__projects {
-      margin-bottom: 1em;
+  }
+  .controls-container {
+    display: block;
+    position: relative;
+    &_direction {
+      position: relative;
+      margin-left: 3rem;
+      &::before {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        bottom: 9rem;
+        left: 1rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: $colorprimary;
+        border-radius: 100%;
+      }
+      &__vertical,
+      &__horizontal {
+        position: absolute;
+        bottom: 7.7rem;
+        left: 1rem;
+        width: 1.5rem;
+        height: 4rem;
+        background: $colorprimary;
+        border-radius: 5px;
+
+        &::before {
+          content: "";
+          position: relative;
+          top: 3.5rem;
+          left: 0.5rem;
+          width: 0;
+          height: 0;
+          border-left: 0.3rem solid transparent;
+          border-right: 0.3rem solid transparent;
+          border-top: 0.3rem solid $colorgrey;
+        }
+        &::after {
+          content: "";
+          position: relative;
+          top: 1rem;
+          left: -0.2rem;
+          width: 0;
+          height: 0;
+          border-left: 0.3rem solid transparent;
+          border-right: 0.3rem solid transparent;
+          border-top: 0.3rem solid $colorgrey;
+        }
+      }
+      &__horizontal {
+        transform: rotate(90deg);
+      }
+      &__vertical {
+        box-shadow: 13px 0px 16px 0px $colorcuaternary;
+      }
+    }
+    &_AB {
+      position: absolute;
+      left: 84%;
+      top: 35%;
+      transform: rotate(-21deg);
+      &__A {
+        margin-inline: 15px;
+      }
+
+      &__A,
+      &__B {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 100%;
+        left: 15%;
+        top: 50%;
+        outline: none;
+        background-color: $colorgrey;
+        color: $colorprimary;
+        cursor: grabbing;
+      }
+    }
+    &_btn {
+      position: absolute;
+      bottom: 18%;
+      left: 6%;
+      transform: rotate(10deg);
+      display: flex;
+      flex-direction: column;
+
+      &__check {
+        width: 1.5rem;
+        height: 1.5rem;
+        background: $colorgrey;
+        border-radius: 50%;
+        outline: none;
+        transition: 0.4s;
+        box-shadow: inset 0 0 5px $colorcuaternary;
+
+        cursor: grabbing;
+      }
+      &__projects,
+      &__contact {
+        border-radius: 35%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0.2em;
+        box-shadow: $colorcuaternary 3px 3px 6px 0px inset,
+          $colorterciary -3px -3px 6px 1px inset;
+        &___text {
+          margin-right: 0.2em;
+          font-size: small;
+          text-shadow: 5px 5px 5px $colorterciary;
+        }
+      }
+      &__projects {
+        margin-bottom: 1em;
+      }
     }
   }
-}
-.speakers {
-  content: "";
-  position: relative;
-  height: 5rem;
-  width: 8px;
-  bottom: 29%;
-  left: 86%;
-  border-radius: 4px;
-  transform: rotate(78deg);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  &-1 {
+  .speakers {
     content: "";
     position: relative;
     height: 5rem;
     width: 8px;
-    left: 156%;
+    bottom: 29%;
+    left: 86%;
     border-radius: 4px;
-    transform: rotate(0deg);
+    transform: rotate(78deg);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
       rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  }
-  &-2 {
-    content: "";
-    position: relative;
-    height: 5rem;
-    width: 8px;
-    bottom: 99%;
-    left: 310%;
-    border-radius: 4px;
-    transform: rotate(0deg);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  }
-  &-3 {
-    content: "";
-    position: relative;
-    height: 5rem;
-    width: 8px;
-    bottom: 198%;
-    left: 460%;
-    border-radius: 4px;
-    transform: rotate(0deg);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  }
-  &-4 {
-    content: "";
-    position: relative;
-    height: 5rem;
-    width: 8px;
-    bottom: 298%;
-    left: 630%;
-    border-radius: 4px;
-    transform: rotate(0deg);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    &-1 {
+      content: "";
+      position: relative;
+      height: 5rem;
+      width: 8px;
+      left: 156%;
+      border-radius: 4px;
+      transform: rotate(0deg);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    &-2 {
+      content: "";
+      position: relative;
+      height: 5rem;
+      width: 8px;
+      bottom: 99%;
+      left: 310%;
+      border-radius: 4px;
+      transform: rotate(0deg);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    &-3 {
+      content: "";
+      position: relative;
+      height: 5rem;
+      width: 8px;
+      bottom: 198%;
+      left: 460%;
+      border-radius: 4px;
+      transform: rotate(0deg);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    &-4 {
+      content: "";
+      position: relative;
+      height: 5rem;
+      width: 8px;
+      bottom: 298%;
+      left: 630%;
+      border-radius: 4px;
+      transform: rotate(0deg);
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+        rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
   }
 }

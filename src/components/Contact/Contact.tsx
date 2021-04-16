@@ -2,12 +2,18 @@ import Back from "../Buttons/backBtn/Back";
 import mail from "../../assets/gmail.png";
 import linkedin from "../../assets/linkedin.png";
 import github from "../../assets/github.png";
-import codepen from "../../assets/codepenlogo.png";
+import codepen from "../../assets/codepen.png";
+import hearts from "../../assets/heart.png";
 import "./_contact.scss";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="contact-wrapper">
+      <div className="heart-container">
+        <img className="icon" src={hearts} alt="" />
+        <img className="icon" src={hearts} alt="" />
+        <img className="icon" src={hearts} alt="" />
+      </div>
       <section className="section-container">
         <h1 className="section-container__title">Es peligroso salir solo.</h1>
         <h2 className="section-container__title">Usa esto</h2>
@@ -74,8 +80,8 @@ const Contact = () => {
             </a>
           </li>
         </ul>
+        <Back />
       </section>
-      <Back />
     </div>
   );
 };

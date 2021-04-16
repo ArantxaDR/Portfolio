@@ -49,7 +49,7 @@ export default function Landing() {
   }, [blink]);
 
   return (
-    <>
+    <div className="wrapper">
       <div className="landing-container">
         <main className="landing-container-title">
           <h2>{`${phrases[index].substring(0, subIndex)}${
@@ -60,6 +60,6 @@ export default function Landing() {
       <div className="btn">
         <LandingButton />
       </div>
-    </>
+    </div>
   );
 }

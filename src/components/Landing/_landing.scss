@@ -1,13 +1,16 @@
 @import "../../styles/variables";
 
-body {
+.wrapper {
   background-color: $colorcuaternary;
+  height: 100vh;
+  width: 100vw;
 }
 .landing-container {
   font-family: $fontprimary;
   color: $colorprimary;
   text-align: center;
-  padding-top: 15%;
+  padding-top: 60%;
+  margin-bottom: 5rem;
 }
 .btn {
   display: flex;
@@ -16,4 +19,20 @@ body {
   align-items: center;
   margin-bottom: 10rem;
   cursor: grabbing;
+}
+
+//@tablet media
+
+@media all and (min-width: 768px) {
+  .landing-container {
+    padding-top: 40%;
+  }
+}
+
+//desktop media
+
+@media all and (min-width: 1200px) {
+  .landing-container {
+    padding-top: 15%;
+  }
 }

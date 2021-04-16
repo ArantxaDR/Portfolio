@@ -3,20 +3,18 @@ import ProjectData from "../../data/projects.json";
 import Project from "./Project/Project";
 import "./_projects.scss";
 
-console.log(ProjectData);
 const Projects = () => {
   return (
     <>
+      <Back />
       <div className="projects-container">
         <h1 className="projects-container__title">Proyectos</h1>
         <div className="projects-container__list">
-          {ProjectData.map((project: any) => (
-            <Project project={project} />
+          {ProjectData.map((project: any, id: number) => (
+            <Project project={project} key={id} />
           ))}
         </div>
       </div>
-
-      <Back />
     </>
   );
 };

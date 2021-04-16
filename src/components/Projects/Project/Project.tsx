@@ -11,8 +11,11 @@ export default function Project({ project }: { project: any }) {
         src={project.preview}
         alt={project.alt}
       />
-      <p className="project-container__text">{project.description}</p>
-
+      <ul className="project-container__text">
+        <li>{project.description}</li>
+        <li>{project.description2}</li>
+        <li>{project.description3}</li>
+      </ul>
       <ul className="project-container__list">
         <li className="project-container__listItem">
           <a

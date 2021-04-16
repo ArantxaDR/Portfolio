@@ -28,12 +28,16 @@
   }
   &__title {
     color: $colorred;
+    text-align: center;
   }
   &__text {
     color: $colorcuaternary;
     font-size: 75%;
-    padding: 0.2em;
+    padding: 0.1em;
     border-top: 0.2em solid $colorcuaternary;
     border-bottom: 0.2em solid $colorcuaternary;
+    margin-bottom: 0;
+    list-style: none;
+    line-height: 150%;
   }
 }

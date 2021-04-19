@@ -5,17 +5,17 @@ import "./_projects.scss";
 
 const Projects = () => {
   return (
-    <>
-      <Back />
-      <div className="projects-container">
-        <h1 className="projects-container__title">Proyectos</h1>
-        <div className="projects-container__list">
-          {ProjectData.map((project: any, id: number) => (
-            <Project project={project} key={id} />
-          ))}
-        </div>
+    <div className="projects-container">
+      <div className="projects-container__btn">
+        <Back />
       </div>
-    </>
+      <h1 className="projects-container__title">Proyectos</h1>
+      <div className="projects-container__list">
+        {ProjectData.map((project: any, id: number) => (
+          <Project project={project} key={id} />
+        ))}
+      </div>
+    </div>
   );
 };
 

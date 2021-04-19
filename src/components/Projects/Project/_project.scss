@@ -1,7 +1,7 @@
 @import "../../../styles/variables";
 
 .project-container {
-  border: 6px solid $colorterciary;
+  border: 6px solid $colorcuaternary;
   height: 22rem;
   width: 15rem;
   padding: 0.5em;
@@ -22,9 +22,10 @@
   }
 
   &__img {
-    height: 55%;
-    width: 90%;
+    width: 85%;
+    object-fit: cover;
     box-shadow: 0px 10px 10px -6px $colorcuaternary;
+    margin-bottom: 1em;
   }
   &__title {
     color: $colorred;
@@ -36,7 +37,7 @@
     padding: 0.1em;
     border-top: 0.2em solid $colorcuaternary;
     border-bottom: 0.2em solid $colorcuaternary;
-    margin-bottom: 0;
+    margin-bottom: 1em;
     list-style: none;
     line-height: 130%;
   }

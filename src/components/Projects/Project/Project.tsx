@@ -16,6 +16,7 @@ export default function Project({ project }: { project: any }) {
         <li>{project.description2}</li>
         <li>{project.description3}</li>
       </ul>
+
       <ul className="project-container__list">
         <li className="project-container__listItem">
           <a

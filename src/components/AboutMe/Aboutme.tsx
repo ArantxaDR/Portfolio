@@ -13,15 +13,14 @@ const Aboutme = () => {
             <img
               className="screen_photo"
               src={Arantxa}
-              alt="Una mujer presentándose"
+              alt="Arantxa Delgado"
+              title="Arantxa Delgado"
             />
-            <p className="screen_title">Sobre mi</p>
+
             <p className="screen_text">
               ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend
-              jr. Hace poco que me he reinventado como programadora y estoy
-              descubriendo un mundo apasionante, lleno de retos y posibilidades.
-              Soy activa, resolutiva y empática, con ganas de aprender y aportar
-              a este mundillo tech.
+              jr. Me he reinventado como programadora y estoy descubriendo un
+              mundo apasionante, lleno de retos y posibilidades.
             </p>
           </div>
         </div>

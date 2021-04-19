@@ -11,7 +11,8 @@
   transition: all 0.2s ease-in-out;
   color: $colorcuaternary;
   &:hover {
-    background-color: $colorterciary;
+    color: $colorgrey;
+    background-color: $colorcuaternary;
     border-bottom-width: 0;
     border-top-width: 4px;
   }

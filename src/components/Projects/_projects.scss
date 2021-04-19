@@ -5,28 +5,58 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 95vh;
+  background-color: $colorterciary;
+  overflow: scroll;
+  &__btn {
+    margin-top: 180%;
+    margin-bottom: 1rem;
+  }
+
   &__title {
     color: $colorprimary;
-    margin-bottom: 0.4rem;
-  }
-  &__list {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 2em;
-    padding: 2em;
+    font-family: $fontprimary;
+    text-align: center;
+    margin-bottom: 1rem;
   }
 }
+
 //Tablet
 @media all and (min-width: 768px) {
-  .projects-container__list {
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(2, 1fr);
+  .projects-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    &__btn {
+      margin-top: 0;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
   }
 }
 //Desktop
 @media all and (min-width: 1200px) {
-  .projects-container__list {
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
+  .projects-container {
+    &__btn {
+      grid-row: span 1;
+      align-self: end;
+    }
+    &__title {
+      grid-row: 2/2;
+    }
+    &__list {
+      grid-column: 2/6;
+      grid-row: 4/4;
+      grid-gap: 1rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
   }
 }

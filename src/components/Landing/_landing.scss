@@ -9,7 +9,7 @@
   font-family: $fontprimary;
   color: $colorprimary;
   text-align: center;
-  padding-top: 60%;
+  padding-top: 10%;
   margin-bottom: 5rem;
 }
 .btn {
@@ -23,7 +23,7 @@
 
 //@tablet media
 
-@media all and (min-width: 768px) {
+@media all and (max-width: 420px) {
   .landing-container {
     padding-top: 40%;
   }
@@ -31,8 +31,8 @@
 
 //desktop media
 
-@media all and (min-width: 1200px) {
+@media all and (max-width: 1024px) {
   .landing-container {
-    padding-top: 15%;
+    padding-top: 30%;
   }
 }

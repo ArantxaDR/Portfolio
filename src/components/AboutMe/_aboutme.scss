@@ -31,7 +31,6 @@
     );
     border-radius: 20em/8em;
     margin-left: 18%;
-
     color: $colorprimary;
   }
   .power {
@@ -76,39 +75,30 @@
       height: 13rem;
       top: 1rem;
       left: 1.3rem;
-
       display: flex;
-      flex-direction: row-reverse;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: 1.2rem;
       box-shadow: inset 3px 3px rgba(0, 0, 0, 0.15);
       &_photo {
         align-self: flex-start;
-        margin-top: 0.5;
         border: solid 1px #fbfbef;
         width: 5rem;
         height: 5rem;
         border-radius: 30%;
+        margin-bottom: 0.5em;
       }
-      &_title {
-        display: table;
-        padding: 0 0.5rem;
-        position: relative;
-      }
-      &_text {
-        border-color: $colorcuaternary;
-        border-style: solid;
-        border-width: 1px;
-        text-align: center;
-        padding: 0 0.5rem;
-        margin: 1.2rem 1rem 1rem;
-        font-size: 0.7em;
-        background-color: $colorsecondary;
 
-        > :last-child {
-          margin-bottom: 0;
-        }
+      &_text {
+        align-self: baseline;
+        border-color: $colorcuaternary;
+        border-style: dashed;
+        border-width: 1px;
+        text-align: start;
+        font-size: 0.7em;
+        padding: 0.5em;
+        background-color: $colorsecondary;
       }
     }
   }

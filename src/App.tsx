@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
+      <Landing />
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route path="/aboutme" component={Aboutme} />

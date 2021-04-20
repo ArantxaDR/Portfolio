@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+
 import LandingButton from "../Buttons/landingBtn/LandingButton";
+
 import "./_landing.scss";
 
 const phrases = [

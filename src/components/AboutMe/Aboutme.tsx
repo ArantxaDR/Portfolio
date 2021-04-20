@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
 import "./_aboutme.scss";
-
 import Arantxa from "../../assets/Arantxa.jpg";
 
 const Aboutme = () => {
   return (
     <div className="aboutme-wrapper">
-      <main className="gameboy">
+      <section className="gameboy">
         <p className="power"></p>
         <div className="screen-container">
           <div className="screen">
@@ -54,7 +53,7 @@ const Aboutme = () => {
           <div className="speakers-3"></div>
           <div className="speakers-4"></div>
         </div>
-      </main>
+      </section>
     </div>
   );
 };

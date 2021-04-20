@@ -1,19 +1,20 @@
-import React from "react";
 import Back from "../Buttons/backBtn/Back";
+import ProjectData from "../../data/projects.json";
+import Project from "./Project/Project";
+import "./_projects.scss";
 
 const Projects = () => {
   return (
     <div className="projects-container">
-      <section className="section-container">
-        <h3>Proyectos</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam tempora
-          eos incidunt, delectus non sed necessitatibus magni, similique
-          corrupti reiciendis voluptatibus nemo voluptates vitae? Explicabo
-          quidem ipsum porro nostrum nesciunt?
-        </p>
-      </section>
-      <Back />
+      <div className="projects-container__btn">
+        <Back />
+      </div>
+      <h1 className="projects-container__title">Proyectos</h1>
+      <div className="projects-container__list">
+        {ProjectData.map((project: any, id: number) => (
+          <Project project={project} key={id} />
+        ))}
+      </div>
     </div>
   );
 };

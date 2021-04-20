@@ -1,9 +1,17 @@
 @import "../../styles/variables";
 
-body {
-  background-image: url(../../assets/linksword.png);
-  background-size: cover;
-  background-position: center;
+.contact-wrapper {
+  height: 95vh;
+  width: 100%;
+  background-color: $colorsecondary;
+  padding-top: 2%;
+}
+.heart-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 7%;
 }
 .section-container {
   display: flex;
@@ -12,9 +20,21 @@ body {
   align-items: center;
   color: $colorprimary;
   padding: 1em;
+  border: 18px dashed $colorgrey;
 
+  &__text,
+  &__title {
+    width: 90%;
+    line-height: 150%;
+    font-family: $fontsecondary;
+  }
+  &__title {
+    text-align: center;
+  }
   &__contactList {
     list-style: none;
+    margin-top: 3em;
+    margin-bottom: 2em;
   }
   &__contactListItem {
     display: inline;
@@ -23,7 +43,35 @@ body {
 }
 
 .icon {
-  width: 2rem;
   height: 2rem;
   color: $colorprimary;
+}
+
+//media tablet
+
+@media all and (min-width: 768px) {
+  .contact-wrapper {
+    padding-top: 10%;
+  }
+  .heart-container {
+    margin-right: 10%;
+  }
+}
+
+//media desktop
+
+@media all and (min-width: 1200px) {
+  .contact-wrapper {
+    padding-top: 3%;
+  }
+  .heart-container {
+    margin-right: 25%;
+  }
+  .section-container {
+    width: 60%;
+    margin-left: 18%;
+    &__text {
+      width: 70%;
+    }
+  }
 }

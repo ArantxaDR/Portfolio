@@ -1,0 +1,36 @@
+[
+    {
+        "id": 0,
+        "name": "Catrina's awesome profile-cards",
+        "webpage": "https://arantxadr.github.io/Catrinas-awesome-profile-cards/",
+        "repository": "https://github.com/ArantxaDR/Catrinas-awesome-profile-cards",
+        "preview":"images/catrina.png",
+        "alt":"Imagen de la aplicación de Catrina's",
+        "description": "Proyecto en equipo. App web de creación de tarjetas de visita.",
+        "description2": "Tecnologías: JavaScript, CSS, SASS y HTML.",
+        "description3":"Otras herramientas: Gulp, Git y GitHub."
+    },
+    {
+        "id": 1,
+        "name": "Rick y Morty",
+        "webpage": "https://arantxadr.github.io/Rick-Morty-search/#/",
+        "repository": "https://github.com/ArantxaDR/Rick-Morty-search",
+        "preview": "images/Rick.png",
+        "alt":"Imagen de la aplicación de Rick y Morty",
+        "description": "App web de búsqueda de personajes de Rick y Morty.  ",
+        "description2": "Tecnologías: React, JavaScript, HTML5, CSS3 y SASS.",
+        "description3":"Otras herramientas: Git y GitHub."
+    },
+    {
+        "id": 2,
+        "name": "Buscador de series",
+        "webpage": "https://arantxadr.github.io/Buscador-series/",
+        "repository": "https://github.com/ArantxaDR/Buscador-series",
+        "preview": "images/series.png",
+        "alt":"Imagen de la aplicación buscador de series",
+        "description": "App web de gestión de series.",
+        "description2": "Tecnologías: JavaScript, HTML5, CSS3 y SASS.",
+        "description3":"Otras herramientas: Gulp, Git y GitHub "
+    }
+
+]

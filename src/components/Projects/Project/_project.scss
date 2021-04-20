@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+
+.project-container {
+  border: 6px solid $colorcuaternary;
+  height: 22rem;
+  width: 15rem;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  background-color: $colorgrey;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+  }
+  &__listItem {
+    display: inline;
+    margin-right: 2em;
+  }
+
+  &__img {
+    width: 85%;
+    object-fit: cover;
+    box-shadow: 0px 10px 10px -6px $colorcuaternary;
+    margin-bottom: 1em;
+  }
+  &__title {
+    color: $colorred;
+    text-align: center;
+  }
+  &__text {
+    color: $colorcuaternary;
+    font-size: 75%;
+    padding: 0.1em;
+    border-top: 0.2em solid $colorcuaternary;
+    border-bottom: 0.2em solid $colorcuaternary;
+    margin-bottom: 1em;
+    list-style: none;
+    line-height: 130%;
+  }
+}

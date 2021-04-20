@@ -1,11 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import "../landingBtn/_landingBtn.scss";
+import "./_backBtn.scss";
 
 export default function Back() {
   return (
     <Link to="/aboutme">
-      <button className="container-btn">Volver</button>
+      <button className="back-btn">Volver</button>
     </Link>
   );
 }

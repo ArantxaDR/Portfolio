@@ -27,8 +27,8 @@ export default function Project({ project }: { project: any }) {
             <img
               className="icon"
               src={pc}
-              alt="Icono ordenador"
-              title="Ordenador"
+              alt="Enlace a la demo"
+              title="Enlace a la demo"
             />
           </a>
         </li>
@@ -41,8 +41,8 @@ export default function Project({ project }: { project: any }) {
             <img
               className="icon"
               src={disk}
-              alt="Icono disquete"
-              title="Floppy-disk"
+              alt="Enlace al reporsitorio"
+              title="Enlace al reporsitorio"
             />
           </a>
         </li>

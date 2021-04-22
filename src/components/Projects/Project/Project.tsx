@@ -1,11 +1,13 @@
+//styles
 import "./_project.scss";
-import pc from "../../../assets/computadora.png";
-import disk from "../../../assets/floppy.png";
+import "../../../../node_modules/nes.css/css/nes.css";
 
 export default function Project({ project }: { project: any }) {
   return (
     <div className="project-container">
-      <h4 className="project-container__title">{project.name}</h4>
+      <h4 className="project-container__title nes-text is-error">
+        {project.name}
+      </h4>
       <img
         className="project-container__img"
         src={project.preview}
@@ -24,12 +26,7 @@ export default function Project({ project }: { project: any }) {
             rel="noreferrer"
             href={project.webpage}
             title="Demo">
-            <img
-              className="icon"
-              src={pc}
-              alt="Enlace a la demo"
-              title="Enlace a la demo"
-            />
+            <i className="nes-logo is-small" title="Enlace a la demo"></i>
           </a>
         </li>
         <li className="project-container__listItem">
@@ -38,12 +35,9 @@ export default function Project({ project }: { project: any }) {
             rel="noreferrer"
             href={project.repository}
             title="Repository">
-            <img
-              className="icon"
-              src={disk}
-              alt="Enlace al reporsitorio"
-              title="Enlace al reporsitorio"
-            />
+            <i
+              className="nes-octocat animate is-small"
+              title="Enlace al reporsitorio"></i>
           </a>
         </li>
       </ul>

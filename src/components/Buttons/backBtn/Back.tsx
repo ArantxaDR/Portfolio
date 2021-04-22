@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "./_backBtn.scss";
+import "../../../../node_modules/nes.css/css/nes.css";
 
 export default function Back() {
   return (
     <Link to="/aboutme">
-      <button className="back-btn">Volver</button>
+      <button className="nes-btn">Volver</button>
     </Link>
   );
 }

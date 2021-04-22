@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./_aboutme.scss";
+import "../../../node_modules/nes.css/css/nes.css";
 import Arantxa from "../../assets/Arantxa.jpg";
 
 const Aboutme = () => {
@@ -15,12 +16,13 @@ const Aboutme = () => {
               alt="Arantxa Delgado"
               title="Arantxa Delgado"
             />
-
-            <p className="screen_text">
-              ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend
-              jr. Me he reinventado como programadora y estoy descubriendo un
-              mundo apasionante, lleno de retos y posibilidades.
-            </p>
+            <div className="nes-container is-rounded screen_text">
+              <p>
+                ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend
+                jr. Me he reinventado como programadora y estoy descubriendo un
+                mundo apasionante, lleno de retos y posibilidades.
+              </p>
+            </div>
           </div>
         </div>
         <div className="controls-container">

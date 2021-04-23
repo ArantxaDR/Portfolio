@@ -1,38 +1,36 @@
 @import "../../styles/variables";
 
-.wrapper {
+.landing-wrapper {
   background-color: $colorcuaternary;
   height: 95vh;
   width: 100%;
+  padding-top: 25%;
+  &__nes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-.landing-container {
-  font-family: $fontprimary;
-  color: $colorprimary;
-  text-align: center;
-  padding-top: 10%;
-  margin-bottom: 5rem;
-}
+
 .btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 4rem;
   margin-bottom: 10rem;
   cursor: grabbing;
 }
 
 //@tablet media
 
-@media all and (max-width: 420px) {
-  .landing-container {
+@media all and (min-width: 420px) {
+  .landing-wrapper {
     padding-top: 40%;
   }
 }
 
 //desktop media
 
-@media all and (max-width: 1024px) {
-  .landing-container {
-    padding-top: 5%;
+@media all and (min-width: 1024px) {
+  .landing-wrapper {
+    padding-top: 10%;
   }
 }

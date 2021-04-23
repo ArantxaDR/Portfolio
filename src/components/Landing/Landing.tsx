@@ -54,16 +54,17 @@ export default function Landing() {
   }, [blink]);
 
   return (
-    <div className="wrapper">
-      <div className="landing-container">
-        <main className="landing-container-title">
+    <div className=" landing-wrapper">
+      <div className="landing-wrapper__nes">
+        <main className=" nes-balloon from-left">
           <h2>{`${phrases[index].substring(0, subIndex)}${
             blink ? "|" : ""
           }`}</h2>
         </main>
-      </div>
-      <div className="btn">
-        <LandingButton />
+
+        <div className="btn">
+          <LandingButton />
+        </div>
       </div>
     </div>
   );

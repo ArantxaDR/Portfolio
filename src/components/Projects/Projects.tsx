@@ -1,7 +1,11 @@
+//components
 import Back from "../Buttons/backBtn/Back";
 import ProjectData from "../../data/projects.json";
 import Project from "./Project/Project";
+
+//styles
 import "./_projects.scss";
+import "../../../node_modules/nes.css/css/nes.css";
 
 const Projects = () => {
   return (

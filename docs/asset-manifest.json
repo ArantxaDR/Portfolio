@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1f258961.chunk.css",
+    "main.js": "./static/js/main.e811c074.chunk.js",
+    "main.js.map": "./static/js/main.e811c074.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.b67d067c.js",
+    "runtime-main.js.map": "./static/js/runtime-main.b67d067c.js.map",
+    "static/js/2.822116c2.chunk.js": "./static/js/2.822116c2.chunk.js",
+    "static/js/2.822116c2.chunk.js.map": "./static/js/2.822116c2.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.1f258961.chunk.css.map": "./static/css/main.1f258961.chunk.css.map",
+    "static/js/2.822116c2.chunk.js.LICENSE.txt": "./static/js/2.822116c2.chunk.js.LICENSE.txt",
+    "static/media/Arantxa.242acb28.jpg": "./static/media/Arantxa.242acb28.jpg",
+    "static/media/codepen.68cc05d6.png": "./static/media/codepen.68cc05d6.png",
+    "static/media/computadora.5df50e82.png": "./static/media/computadora.5df50e82.png",
+    "static/media/consola.3ffaf032.png": "./static/media/consola.3ffaf032.png",
+    "static/media/floppy.846197eb.png": "./static/media/floppy.846197eb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b67d067c.js",
+    "static/js/2.822116c2.chunk.js",
+    "static/css/main.1f258961.chunk.css",
+    "static/js/main.e811c074.chunk.js"
+  ]
+}

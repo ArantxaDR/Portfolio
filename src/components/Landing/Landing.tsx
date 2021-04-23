@@ -1,5 +1,10 @@
+//Hooks
 import { useEffect, useState } from "react";
+
+//Component
 import LandingButton from "../Buttons/landingBtn/LandingButton";
+
+//style
 import "./_landing.scss";
 
 const phrases = [

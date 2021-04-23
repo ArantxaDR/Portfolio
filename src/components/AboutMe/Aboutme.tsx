@@ -32,18 +32,17 @@ const Aboutme = () => {
           </div>
         </div>
         <div className="controls-container_btn">
-          <div className="controls-container_btn__projects">
-            <p className="controls-container_btn__projects___text">Proyectos</p>
-            <Link to="/projects">
-              <button className="controls-container_btn__check"></button>
-            </Link>
-          </div>
-          <div className="controls-container_btn__contact">
-            <p className="controls-container_btn__contact___text">Contacto</p>
-            <Link to="/contact">
-              <button className="controls-container_btn__check"></button>
-            </Link>
-          </div>
+          <Link to="/projects">
+            <button className=" nes-btn controls-container_btn__check">
+              Proyectos
+            </button>
+          </Link>
+
+          <Link to="/contact">
+            <button className="nes-btn controls-container_btn__check">
+              Contacto
+            </button>
+          </Link>
         </div>
         <div className="controls-container_AB">
           <button className="controls-container_AB__A">A</button>

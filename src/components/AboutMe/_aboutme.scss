@@ -179,44 +179,24 @@
     }
     &_btn {
       position: absolute;
-      bottom: 18%;
-      left: 6%;
+      bottom: 20%;
+      left: 5%;
       transform: rotate(10deg);
       display: flex;
       flex-direction: column;
 
       &__check {
-        width: 1.5rem;
-        height: 1.5rem;
-        background: $colorgrey;
-        border-radius: 50%;
-        outline: none;
-        transition: 0.4s;
-        box-shadow: inset 0 0 5px $colorcuaternary;
-
-        cursor: grabbing;
-      }
-      &__projects,
-      &__contact {
-        border-radius: 35%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0.2em;
-        box-shadow: $colorcuaternary 3px 3px 6px 0px inset,
-          $colorterciary -3px -3px 6px 1px inset;
-        &___text {
-          margin-right: 0.2em;
-          font-size: small;
-          text-shadow: 5px 5px 5px $colorterciary;
-        }
-      }
-      &__projects {
         margin-bottom: 1em;
+        color: $colorterciary;
+        font-size: small;
       }
     }
+    .nes-btn {
+      height: 2.3em;
+      width: 7em;
+    }
   }
+
   .speakers {
     content: "";
     position: relative;

@@ -7,13 +7,16 @@
   padding-top: 5%;
 }
 
-//media desktop and tablet
+//media tablet
 @media all and (min-width: 768px) {
+  .aboutme-wrapper {
+    overflow: hidden;
+  }
   .gameboy {
     position: relative;
     font-family: $fontsecondary;
-    width: 50rem;
-    height: 23rem;
+    width: 101vw;
+    height: 48vh;
     background-color: $colorterciary;
     clip-path: polygon(
       0 21%,
@@ -30,7 +33,7 @@
       0 88%
     );
     border-radius: 20em/8em;
-    margin-left: 40vh;
+    margin-top: 10vh;
     color: $colorprimary;
   }
   .power {
@@ -174,7 +177,6 @@
         outline: none;
         background-color: $colorgrey;
         color: $colorprimary;
-        cursor: grabbing;
       }
     }
     &_btn {
@@ -255,5 +257,14 @@
       box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
         rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     }
+  }
+}
+//media desktop
+@media all and (min-width: 1024px) {
+  .gameboy {
+    margin-top: 5vh;
+    margin-left: 32vh;
+    width: 65vw;
+    height: 65vh;
   }
 }

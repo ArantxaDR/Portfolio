@@ -5,9 +5,9 @@ import "../../../../node_modules/nes.css/css/nes.css";
 export default function Project({ project }: { project: any }) {
   return (
     <div className="project-container">
-      <h4 className="project-container__title nes-text is-error">
+      <h3 className="project-container__title nes-text is-error">
         {project.name}
-      </h4>
+      </h3>
       <img
         className="project-container__img"
         src={project.preview}

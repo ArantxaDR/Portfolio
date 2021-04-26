@@ -2,33 +2,33 @@
 
 .project-container {
   border: 6px solid $colorcuaternary;
-  height: 25rem;
-  width: 17rem;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  margin-right: 1em;
+  height: 68vh;
+  width: 20vw;
+  padding: 0.5vh;
+  margin-bottom: 2vh;
+  margin-right: 1vw;
   background-color: $colorgrey;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   &__list {
     list-style: none;
-    height: 17%;
+    height: 17vh;
     width: fit-content;
   }
   &__listItem {
     display: inline;
-    margin-right: 2em;
+    margin-right: 3vh;
   }
 
   &__img {
-    width: 70%;
+    width: 15vw;
     object-fit: cover;
     box-shadow: 0px 10px 10px -6px $colorcuaternary;
-    margin-bottom: 1em;
+    margin-bottom: 2vh;
   }
   &__title {
     text-align: center;
@@ -37,7 +37,7 @@
   &__text {
     color: $colorcuaternary;
     font-family: $fontsecondary;
-    font-size: 0.7em;
+    font-size: 1.7vh;
     padding: 0.1em;
     border-top: 0.2em solid $colorcuaternary;
     border-bottom: 0.2em solid $colorcuaternary;

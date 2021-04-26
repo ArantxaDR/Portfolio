@@ -23,5 +23,5 @@ export default function TypeWriter({ phrases }: TypeWriterProps) {
     };
   }, [text, phrases]);
 
-  return <h1>{text}</h1>;
+  return <h1 className="writer-text">{text}</h1>;
 }

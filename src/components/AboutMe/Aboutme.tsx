@@ -6,7 +6,7 @@ import Arantxa from "../../assets/Arantxa.jpg";
 const Aboutme = () => {
   return (
     <div className="aboutme-wrapper">
-      <section className="gameboy">
+      <section className="gameboy nes-container with-title is-centered">
         <p className="power"></p>
         <div className="screen-container">
           <div className="screen">

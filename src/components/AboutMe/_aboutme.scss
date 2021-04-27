@@ -6,274 +6,26 @@
   width: 100%;
   overflow: hidden;
 }
-.gameboy {
-  position: relative;
-  display: block;
-  margin: 20px auto;
-  width: 90vw;
-  height: 85vh;
-  background-color: $colorterciary;
-  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
-}
 
-.screen-container {
-  position: relative;
-  top: 3vh;
-  left: 2.5vw;
-  width: 85vw;
-  height: 30vh;
-  background-color: $colorcuaternary;
+.screen_photo {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 1rem;
 }
-.screen {
-  position: relative;
-  top: 2vh;
-  margin-left: 1vh;
-  margin-right: 1vw;
-  background-color: #bdae58;
-  width: 80vw;
-  height: 25vh;
-  &_photo {
-    height: 12vh;
-    width: 32vw;
-    margin-left: 1vw;
-    margin-top: 0.2vh;
-    margin-bottom: 1vh;
-    border-radius: 25%;
-  }
-  &_text {
-    font-size: 1vh;
-  }
-  .nes-container {
-    margin-right: 1vh;
-    padding: 0.5vh;
-
-    width: 75vw;
-    height: 11vh;
+.is-rounded,
+.screen_text {
+  font-size: 1.4vh;
+  text-align: left;
+}
+.controls-container_btn {
+  margin-top: 1.5rem;
+}
+.controls-container_AB {
+  margin-top: 1.5rem;
+  &__A {
+    margin-right: 1rem;
   }
 }
-// .power {
-//   content: "";
-//   position: absolute;
-//   width: 10px;
-//   height: 10px;
-//   top: 100px;
-//   left: 20px;
-//   border-radius: 100%;
-//   background-color: #b98181;
-//   transition: background-color 300ms linear;
-// }
-// .power:before {
-//   content: "BATTERY";
-//   position: relative;
-//   top: 18px;
-//   left: -10px;
-//   font-size: 8px;
-//   font-family: sans-serif;
-//   color: #b3b3b3;
-// }
-// .power-on {
-//   background-color: red;
-//   box-shadow: 0 0 3px 1px #ef5350;
-// }
-
-.controls-container {
-  display: block;
-  position: relative;
-  margin-top: 90px;
-}
-.btn-direction {
-  position: relative;
-  top: 140px;
-}
-.btn-direction:before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 30px;
-  left: 30px;
-  width: 30px;
-  height: 30px;
-  background-color: #353535;
-  border-radius: 100%;
-}
-.vertical,
-.horizontal {
-  position: absolute;
-  left: 30px;
-  width: 30px;
-  height: 90px;
-  background-color: #444;
-  border-radius: 5px;
-}
-.vertical:before {
-  content: "";
-  position: relative;
-  top: 99px;
-  left: 8px;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
-}
-.horizontal:before {
-  content: "";
-  position: relative;
-  top: 99px;
-  left: 8px;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
-}
-.vertical:after {
-  content: "";
-  position: relative;
-  top: -3px;
-  left: -5.6px;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
-}
-.horizontal:after {
-  content: "";
-  position: relative;
-  top: -3px;
-  left: -5.6px;
-  width: 0;
-  height: 0;
-  border-left: 7px solid transparent;
-  border-right: 7px solid transparent;
-  border-top: 7px solid #dedede;
-}
-.horizontal {
-  transform: rotate(90deg);
-}
-.btn-AB {
-  position: absolute;
-  top: 370px;
-  left: 187px;
-  width: 130px;
-  height: 60px;
-  background-color: #dfdfdf;
-  border-radius: 30px;
-  transform: rotate(-25deg);
-}
-.btn-AB:after {
-  content: "";
-  position: absolute;
-  top: 8px;
-  right: 9px;
-  width: 44px;
-  height: 44px;
-  background-color: #a93671;
-  box-shadow: 68px 0 #a93671;
-  border-radius: 100%;
-  transform: rotate(180deg);
-}
-.btn-start-select {
-  position: absolute;
-  top: 520px;
-  left: 80px;
-  height: 12px;
-  width: 60px;
-  background: #999;
-  border-radius: 10px;
-  transform: rotate(-25deg);
-  box-shadow: 57px 27px #999, 0 0 0 5px #dfdfdf, 57px 27px 0 5px#dfdfdf;
-}
-.speakers {
-  content: "";
-  position: relative;
-  height: 70px;
-  width: 8px;
-  top: 334px;
-  left: 252px;
-  background-color: #ddd;
-  border-radius: 4px;
-  transform: rotate(-25deg);
-  box-shadow: 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd, 100px 0 #ddd;
-}
-.phones {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  padding: 3px 5px;
-  transform: translateX(-50%);
-  color: #dadada;
-  background-color: #e8e8e8;
-  font-size: 8px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  border-radius: 30px;
-}
-.phones:before {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 5px;
-  bottom: -4px;
-  background-color: #e8e8e8;
-  left: 9px;
-}
-.phones:after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 5px;
-  bottom: -4px;
-  left: 12px;
-  background-color: #ddd;
-  box-shadow: 5px 0 #ddd;
-  border-radius: 4px 4px 0 0;
-}
-.on-off {
-  position: absolute;
-  top: 2px;
-  left: 20%;
-  padding: 3px 5px;
-  transform: translateX(-50%);
-  color: #dadada;
-  background-color: #e8e8e8;
-  font-size: 8px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  border-radius: 30px;
-}
-.on-off:before {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 5px;
-  top: -2px;
-  background-color: #e8e8e8;
-  left: 6px;
-}
-.on-off:after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 5px;
-  top: -2px;
-  left: 9px;
-  background-color: #ddd;
-  box-shadow: 5px 0 #ddd;
-  border-radius: 0 0 3px 3px;
-}
-.btn-on,
-.btn-off {
-  display: block;
-  margin: 0 auto;
-  font-family: sans-serif;
-  text-align: center;
-}
-.btn-hide {
-  display: none;
-}
-
 //media tablet
 @media all and (min-width: 768px) {
   .aboutme-wrapper {
@@ -282,8 +34,8 @@
   .gameboy {
     position: relative;
     font-family: $fontsecondary;
-    width: 101vw;
-    height: 48vh;
+    width: 50rem;
+    height: 24rem;
     background-color: $colorterciary;
     clip-path: polygon(
       0 21%,
@@ -529,9 +281,23 @@
 //media desktop
 @media all and (min-width: 1024px) {
   .gameboy {
-    margin-top: 5vh;
-    margin-left: 32vh;
-    width: 65vw;
-    height: 65vh;
+    width: 50rem;
+    height: 23rem;
+    margin-left: 10rem;
+  }
+}
+
+//media desktopL
+@media all and (min-width: 1440px) {
+  .gameboy {
+    margin-left: 20rem;
+    margin-top: 15rem;
+  }
+}
+
+//media desktop4k
+@media all and (min-width: 2560px) {
+  .gameboy {
+    margin-left: 55rem;
   }
 }

@@ -52,6 +52,14 @@ const Contact = () => {
                 title="Enlace a Linkedin"></i>
             </a>
           </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1Y7h1910kDy60c0yNJQeWBr9NNZFuNHFi/view?usp=sharing"
+              className="nes-badge is-icon">
+              <span className="is-dark">hi</span>
+              <span className="is-warning">CV</span>
+            </a>
+          </li>
         </ul>
         <Back />
       </section>

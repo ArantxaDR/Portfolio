@@ -1,7 +1,9 @@
 @import "../../styles/variables";
 
 .aboutme-wrapper {
-  background-color: $colorgrey;
+  background-image: url(../../assets/back-aboutme.jpg);
+  background-position: center;
+  background-size: cover;
   height: 95vh;
   width: 100%;
   overflow: hidden;
@@ -19,6 +21,7 @@
 .screen_text {
   font-size: 1.4vh;
   text-align: left;
+  color: $colorprimary;
 }
 .controls-container_btn {
   margin-top: 1.5rem;
@@ -55,7 +58,7 @@
       0 88%
     );
     border-radius: 20em/8em;
-    margin-top: 10vh;
+    margin-top: 25%;
     color: $colorprimary;
   }
   .power {
@@ -284,23 +287,24 @@
 //media desktop
 @media all and (min-width: 1024px) {
   .gameboy {
-    width: 50rem;
-    height: 23rem;
-    margin-left: 10rem;
+    width: 53rem;
+    height: 25rem;
+    margin-left: 10%;
   }
 }
 
 //media desktopL
 @media all and (min-width: 1440px) {
   .gameboy {
-    margin-left: 20rem;
-    margin-top: 15rem;
+    margin-left: 20%;
+    margin-top: 15%;
   }
 }
 
 //media desktop4k
 @media all and (min-width: 2560px) {
   .gameboy {
-    margin-left: 55rem;
+    margin-left: 33%;
+    margin-top: 10%;
   }
 }

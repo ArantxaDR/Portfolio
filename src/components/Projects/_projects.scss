@@ -5,28 +5,75 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 95vh;
+  background-image: url(../../assets/back-projects.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: scroll;
+
+  &__btn {
+    margin-bottom: 1rem;
+    padding-top: 10rem;
+  }
+
   &__title {
     color: $colorprimary;
-    margin-bottom: 0.4rem;
-  }
-  &__list {
-    display: grid;
-    grid-template-columns: 1fr;
-    column-gap: 2em;
-    padding: 2em;
+    font-family: $fontprimary;
+    text-align: center;
+    margin-bottom: 43rem;
   }
 }
+
 //Tablet
 @media all and (min-width: 768px) {
-  .projects-container__list {
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(2, 1fr);
+  .projects-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &__btn {
+      margin-bottom: 15vh;
+      padding-right: 25vw;
+      padding-top: 1rem;
+    }
+    &__title {
+      margin-bottom: 0;
+    }
+    &__list {
+      width: 50vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 99vw;
+    }
   }
 }
 //Desktop
-@media all and (min-width: 1200px) {
-  .projects-container__list {
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(3, 1fr);
+@media all and (min-width: 1024px) {
+  .projects-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+
+    &__btn {
+      grid-row: 1/1;
+      grid-column: 1/2;
+      padding-left: 2%;
+      padding-top: 0;
+    }
+    &__title {
+      grid-row: 1/1;
+      grid-column: 2/3;
+    }
+    &__list {
+      grid-row: 2/2;
+      grid-column: 1/4;
+    }
   }
 }

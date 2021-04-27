@@ -1,19 +1,50 @@
 @import "../../styles/variables";
 
-body {
+.landing-wrapper {
   background-color: $colorcuaternary;
+  height: 95vh;
+  width: 100%;
+  padding-top: 25%;
+  &__nes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15vh;
+    margin-right: 15vh;
+  }
 }
-.landing-container {
-  font-family: $fontprimary;
-  color: $colorprimary;
-  text-align: center;
-  padding-top: 15%;
-}
+
 .btn {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin-top: 4rem;
   margin-bottom: 10rem;
-  cursor: grabbing;
+}
+.writer-text {
+  font-size: 2.4vh;
+}
+//@tablet media
+
+@media all and (min-width: 420px) {
+  .landing-wrapper {
+    padding-top: 33%;
+  }
+  .writer-text {
+    font-size: 3vh;
+  }
+}
+
+//desktop media
+
+@media all and (min-width: 1024px) {
+  .landing-wrapper {
+    padding-top: 10%;
+    overflow: hidden;
+    &__nes {
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+  }
+  .writer-text {
+    font-size: 4vh;
+  }
 }

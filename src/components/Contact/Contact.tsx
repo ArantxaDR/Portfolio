@@ -1,13 +1,17 @@
+//component
 import Back from "../Buttons/backBtn/Back";
-import mail from "../../assets/gmail.png";
-import linkedin from "../../assets/linkedin.png";
-import github from "../../assets/github.png";
-import codepen from "../../assets/codepenlogo.png";
+
+//styles
 import "./_contact.scss";
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="contact-wrapper">
+      <div className="heart-container">
+        <i className="nes-icon is-medium heart"></i>
+        <i className="nes-icon is-medium heart"></i>
+        <i className="nes-icon is-medium is-half heart"></i>
+      </div>
       <section className="section-container">
         <h1 className="section-container__title">Es peligroso salir solo.</h1>
         <h2 className="section-container__title">Usa esto</h2>
@@ -23,12 +27,7 @@ const Contact = () => {
               rel="noreferrer"
               href="mailto:arantxaderuiz@gmail.com"
               title="Send email">
-              <img
-                className="icon"
-                src={mail}
-                alt="Icono email"
-                title="Logo Email"
-              />
+              <i className="nes-icon gmail is-large" title="Enlace a email"></i>
             </a>
           </li>
           <li className="section-container__contactListItem github">
@@ -37,12 +36,9 @@ const Contact = () => {
               rel="noreferrer"
               href="https://github.com/ArantxaDR"
               title="Access GitHub">
-              <img
-                className="icon"
-                src={github}
-                alt="Icono github"
-                title="Logo Github"
-              />{" "}
+              <i
+                className="nes-icon github is-large"
+                title="Enlace a Github"></i>
             </a>
           </li>
           <li className="section-container__contactListItem linkedin">
@@ -51,31 +47,22 @@ const Contact = () => {
               rel="noreferrer"
               href="https://www.linkedin.com/in/arantxadelgadoruiz/"
               title="Access Linkedin">
-              <img
-                className="icon"
-                src={linkedin}
-                alt="Icono linkedin"
-                title="Logo Linkedin"
-              />
+              <i
+                className="nes-icon linkedin is-large"
+                title="Enlace a Linkedin"></i>
             </a>
           </li>
-          <li className="section-container__contactListItem codepen">
+          <li>
             <a
-              target="_blank"
-              rel="noreferrer"
-              href="https://codepen.io/arantxadr"
-              title="Access Codepen">
-              <img
-                className="icon"
-                src={codepen}
-                alt="Icono codepen"
-                title="Logo Codepen"
-              />
+              href="https://drive.google.com/file/d/1Y7h1910kDy60c0yNJQeWBr9NNZFuNHFi/view?usp=sharing"
+              className="nes-badge is-icon">
+              <span className="is-dark">hi</span>
+              <span className="is-warning">CV</span>
             </a>
           </li>
         </ul>
+        <Back />
       </section>
-      <Back />
     </div>
   );
 };

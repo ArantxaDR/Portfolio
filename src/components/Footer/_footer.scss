@@ -2,17 +2,11 @@
 
 .footer {
   background-color: $colorcuaternary;
-  display: flex;
-  justify-self: flex-end;
+  text-align: left;
   height: 5vh;
   width: 100%;
-  padding-left: 1em;
+  padding: 1em;
   color: $colorprimary;
   font-family: $fontprimary;
   font-size: small;
-
-  &-img {
-    width: 1.5rem;
-    height: 1.5rem;
-  }
 }

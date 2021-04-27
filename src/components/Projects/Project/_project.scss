@@ -2,30 +2,29 @@
 
 .project-container {
   border: 6px solid $colorcuaternary;
-  height: 68vh;
-  width: 20vw;
-  padding: 0.5vh;
-  margin-bottom: 2vh;
-  margin-right: 1vw;
+  height: 25rem;
+  width: 18rem;
+  margin-right: 1rem;
   background-color: $colorgrey;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 0.4rem;
+  padding-top: 0;
 
   &__list {
     list-style: none;
-    height: 17vh;
     width: fit-content;
   }
   &__listItem {
     display: inline;
-    margin-right: 3vh;
+    margin-right: 1rem;
   }
 
   &__img {
-    width: 15vw;
+    width: 70%;
     object-fit: cover;
     box-shadow: 0px 10px 10px -6px $colorcuaternary;
     margin-bottom: 2vh;

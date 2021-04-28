@@ -12,6 +12,7 @@
   text-align: center;
   background-color: $colorgrey;
   grid-column: auto;
+  grid-row: inherit;
 
   &:hover {
     height: 480px;

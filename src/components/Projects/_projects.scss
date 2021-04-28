@@ -46,7 +46,9 @@
     &__list {
       grid-row: 2;
       grid-column: 1/4;
-      grid-template-columns: repeat(3, 1fr);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
   }
 }

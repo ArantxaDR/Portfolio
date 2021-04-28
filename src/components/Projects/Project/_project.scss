@@ -1,33 +1,43 @@
 @import "../../../styles/variables";
 
 .project-container {
-  border: 6px solid $colorcuaternary;
-  height: 25rem;
-  width: 18rem;
-  margin-right: 1rem;
+  height: 250px;
+  width: 300px;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 4%;
+  border: 0.5em solid $colorcuaternary;
+  transition: all 0.7s ease-in-out;
+  box-shadow: 0px 1px 5px 0px $colorprimary;
+  text-align: center;
   background-color: $colorgrey;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0.4rem;
-  padding-top: 0;
+  &:hover {
+    height: 450px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px $colorprimary;
+  }
 
   &__list {
     list-style: none;
-    width: fit-content;
   }
   &__listItem {
     display: inline;
-    margin-right: 1rem;
+    margin-right: 2.5rem;
+    margin-left: 1.5rem;
   }
 
   &__img {
-    width: 70%;
+    position: relative;
+    border-radius: 15%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-top: 8px solid $colorterciary;
+    border-bottom: 8px solid $colorterciary;
     object-fit: cover;
-    box-shadow: 0px 10px 10px -6px $colorcuaternary;
-    margin-bottom: 2vh;
+    margin: 5px auto;
+    transition: all 0.3s ease;
   }
   &__title {
     text-align: center;
@@ -36,12 +46,13 @@
   &__text {
     color: $colorcuaternary;
     font-family: $fontsecondary;
-    font-size: 1.7vh;
-    padding: 0.1em;
+    font-size: 0.7em;
     border-top: 0.2em solid $colorcuaternary;
     border-bottom: 0.2em solid $colorcuaternary;
-    margin-bottom: 1em;
     list-style: none;
     line-height: 130%;
+    text-align: left;
+    padding-left: 1px;
+    padding-right: 1px;
   }
 }

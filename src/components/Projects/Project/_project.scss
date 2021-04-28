@@ -11,8 +11,10 @@
   box-shadow: 0px 1px 5px 0px $colorprimary;
   text-align: center;
   background-color: $colorgrey;
+  grid-column: auto;
+
   &:hover {
-    height: 450px;
+    height: 480px;
     width: 300px;
     border-radius: 5px;
     box-shadow: 0px 2px 10px $colorprimary;
@@ -23,8 +25,7 @@
   }
   &__listItem {
     display: inline;
-    margin-right: 2.5rem;
-    margin-left: 1.5rem;
+    margin: auto 15px;
   }
 
   &__img {

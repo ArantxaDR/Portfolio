@@ -1,6 +1,6 @@
 @import "../../../styles/variables";
 
-.project-container {
+.project-card {
   height: 250px;
   width: 300px;
   overflow: hidden;
@@ -26,7 +26,7 @@
   }
   &__listItem {
     display: inline;
-    margin: auto 15px;
+    margin: auto;
   }
 
   &__img {

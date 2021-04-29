@@ -4,22 +4,20 @@ import "../../../../node_modules/nes.css/css/nes.css";
 
 export default function Project({ project }: { project: any }) {
   return (
-    <div className="project-container">
+    <div className="project-card">
       <img
-        className="project-container__img"
+        className="project-card__img"
         src={project.preview}
         alt={project.alt}
       />
-      <h3 className="project-container__title nes-text is-error">
-        {project.name}
-      </h3>
-      <ul className="project-container__text scale">
+      <h3 className="project-card__title nes-text is-error">{project.name}</h3>
+      <ul className="project-card__text scale">
         <li>{project.description}</li>
         <li>{project.description2}</li>
         <li>{project.description3}</li>
       </ul>
-      <ul className="project-container__list">
-        <li className="project-container__listItem">
+      <ul className="project-card__list">
+        <li className="project-card__listItem">
           <a
             target="_blank"
             rel="noreferrer"

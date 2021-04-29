@@ -3,8 +3,11 @@
 .footer {
   background-color: $colorcuaternary;
   text-align: left;
-  padding-left: 1em;
+  line-height: 3;
+  height: 5vh;
+  width: 100%;
   color: $colorprimary;
   font-family: $fontprimary;
   font-size: small;
+  padding-left: 3em;
 }

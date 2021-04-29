@@ -11,7 +11,7 @@
   background-image: url(../../assets/back-projects.jpg);
   background-size: cover;
   background-position: center;
-  overflow: scroll;
+  overflow: hidden;
 }
 .projects-header {
   display: flex;
@@ -26,23 +26,22 @@
     margin-bottom: 0.2rem;
   }
 }
-// .projects-list {
-//   display: grid;
-//   grid-template-columns: repeat(auto-fill, minmax(auto-fill, 1fr));
-//   gap: 2px;
-// }
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
 
 //Tablet
 @media all and (min-width: 768px) {
   .projects-header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-content: center;
     align-items: flex-start;
-    &__btn {
-      margin-left: -70%;
-    }
   }
   .projects-list {
     display: flex;
@@ -56,12 +55,14 @@
 //Desktop
 @media all and (min-width: 1024px) {
   .projects-header {
-    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 3em;
+    padding: 0;
     &__btn {
-      margin-right: auto;
+      margin-right: 10em;
     }
     &__title {
-      margin-bottom: 2rem;
+      margin-right: 9em;
     }
   }
   .projects-list {

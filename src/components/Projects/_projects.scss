@@ -3,7 +3,7 @@
 .projects-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-content: center;
   align-items: center;
   width: 100%;
@@ -15,7 +15,7 @@
 }
 .projects-header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-content: center;
   align-items: center;
@@ -26,11 +26,11 @@
     margin-bottom: 0.2rem;
   }
 }
-.projects-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(auto-fill, 1fr));
-  gap: 2px;
-}
+// .projects-list {
+//   display: grid;
+//   grid-template-columns: repeat(auto-fill, minmax(auto-fill, 1fr));
+//   gap: 2px;
+// }
 
 //Tablet
 @media all and (min-width: 768px) {
@@ -41,8 +41,7 @@
     align-content: center;
     align-items: flex-start;
     &__btn {
-      margin-bottom: 3rem;
-      margin-left: -40%;
+      margin-left: -70%;
     }
   }
   .projects-list {
@@ -52,18 +51,25 @@
     align-content: center;
     justify-content: center;
     align-items: center;
-    margin-top: -15%;
   }
 }
 //Desktop
 @media all and (min-width: 1024px) {
   .projects-header {
+    align-items: center;
     &__btn {
-      margin-top: -20%;
-      margin-left: -100%;
+      margin-right: auto;
     }
     &__title {
-      margin-top: -20%;
+      margin-bottom: 2rem;
     }
+  }
+  .projects-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
 }

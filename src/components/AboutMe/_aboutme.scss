@@ -4,7 +4,7 @@
   background-image: url(../../assets/back-aboutme.jpg);
   background-position: center;
   background-size: cover;
-  height: calc(100vh - 5vh);
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow: hidden;
 }
@@ -289,23 +289,7 @@
   .gameboy {
     width: 53rem;
     height: 25rem;
-    margin-left: 10%;
-    margin-top: 3%;
-  }
-}
-
-//media desktopL
-@media all and (min-width: 1440px) {
-  .gameboy {
-    margin-left: 20%;
-    margin-top: 15%;
-  }
-}
-
-//media desktop4k
-@media all and (min-width: 2560px) {
-  .gameboy {
-    margin-left: 33%;
-    margin-top: 10%;
+    margin: auto;
+    overflow: hidden;
   }
 }

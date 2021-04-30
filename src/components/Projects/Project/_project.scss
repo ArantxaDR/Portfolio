@@ -2,7 +2,7 @@
 
 .project-card {
   height: 20rem;
-  width: 45%;
+  width: 25%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,8 +10,8 @@
 .card-figure {
   border: 0.2em solid $colorcuaternary;
   position: relative;
-  height: 20rem;
-  width: 23rem;
+  height: 18rem;
+  width: 17rem;
   overflow: hidden;
   border-radius: 2em;
   box-shadow: 0px 8px 20px $colorgrey;
@@ -45,7 +45,7 @@
       padding: 2rem;
       list-style: none;
       color: $colorcuaternary;
-      line-height: 250%;
+      line-height: 230%;
     }
     &__list {
       display: flex;

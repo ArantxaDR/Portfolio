@@ -4,7 +4,7 @@
   background-image: url(../../assets/back-aboutme.jpg);
   background-position: center;
   background-size: cover;
-  height: 95vh;
+  height: calc(100vh - 5vh);
   width: 100%;
   overflow: hidden;
 }

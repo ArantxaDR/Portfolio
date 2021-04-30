@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .contact-wrapper {
-  height: 95vh;
+  height: calc(100vh - 5vh);
   width: 100%;
   background-image: url(../../assets/back-contact.jpg);
   background-position: center;

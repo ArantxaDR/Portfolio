@@ -23,9 +23,9 @@ const Aboutme = () => {
 
   const newText = (
     <p>
-      Lenguajes: HTML, CSS, JS, React, Typescript. Aprendiendo: NodeJS, Docker,
-      Jest.
-      <br /> Skills: Trabajo en equipo, empática, comprometida
+      Lenguajes: HTML, CSS, JS, React, Typescript. Skills: Trabajo en equipo,
+      empática, comprometida, actitud positiva, ilusión. Aprendiendo: NodeJS,
+      Docker, Jest.
     </p>
   );
 

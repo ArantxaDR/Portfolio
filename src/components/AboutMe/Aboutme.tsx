@@ -2,16 +2,13 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import "./_aboutme.scss";
 import "../../../node_modules/nes.css/css/nes.css";
-// import Arantxa from "../../assets/Arantxa.jpg";
-// import Arantxa8 from "../../assets/Arantxa8bits.jpg";
+import Arantxa from "../../assets/Arantxa.jpg";
+import Arantxa8 from "../../assets/Arantxa8bits.jpg";
 
 const Aboutme = () => {
-  const [picture, updatePicture] = useState(false);
+  const [picture, updatePicture] = useState(true);
 
-  const photo = "../../assets/Arantxa.jpg";
-  const photo8 = "../../assets/Arantxa8bits.jpg";
-
-  const [text, updateText] = useState(false);
+  const [text, updateText] = useState(true);
 
   const opening = (
     <p>
@@ -37,7 +34,7 @@ const Aboutme = () => {
           <div className="screen">
             <img
               className="screen_photo "
-              src={picture ? photo : photo8}
+              src={picture ? Arantxa : Arantxa8}
               alt="Arantxa Delgado"
               title="Arantxa Delgado"
             />

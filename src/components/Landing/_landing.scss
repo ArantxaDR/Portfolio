@@ -2,7 +2,7 @@
 
 .landing-wrapper {
   background-color: $colorcuaternary;
-  height: 95vh;
+  height: calc(100vh - 6vh);
   width: 100%;
   padding-top: 25%;
   &__nes {

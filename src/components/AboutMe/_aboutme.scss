@@ -4,7 +4,7 @@
   background-image: url(../../assets/back-aboutme.jpg);
   background-position: center;
   background-size: cover;
-  height: 95vh;
+  height: calc(100vh - 6vh);
   width: 100%;
   overflow: hidden;
 }
@@ -58,7 +58,7 @@
       0 88%
     );
     border-radius: 20em/8em;
-    margin-top: 25%;
+    margin: auto;
     color: $colorprimary;
   }
   .power {
@@ -102,7 +102,7 @@
       width: 24rem;
       height: 13rem;
       top: 1rem;
-      left: 1.3rem;
+      left: 1.2rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -116,6 +116,17 @@
         height: 5rem;
         border-radius: 30%;
         margin-bottom: 0.5em;
+      }
+      &_photo8 {
+        align-self: flex-start;
+        border: solid 1px #fbfbef;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 30%;
+        margin-bottom: 0.5em;
+      }
+      .hidden {
+        display: none;
       }
 
       &_text {
@@ -289,23 +300,7 @@
   .gameboy {
     width: 53rem;
     height: 25rem;
-    margin-left: 10%;
-    margin-top: 3%;
-  }
-}
-
-//media desktopL
-@media all and (min-width: 1440px) {
-  .gameboy {
-    margin-left: 20%;
-    margin-top: 15%;
-  }
-}
-
-//media desktop4k
-@media all and (min-width: 2560px) {
-  .gameboy {
-    margin-left: 33%;
-    margin-top: 10%;
+    margin: auto;
+    overflow: hidden;
   }
 }

@@ -1,9 +1,31 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./_aboutme.scss";
 import "../../../node_modules/nes.css/css/nes.css";
 import Arantxa from "../../assets/Arantxa.jpg";
+import Arantxa8 from "../../assets/Arantxa8bits.jpg";
 
 const Aboutme = () => {
+  const [picture, updatePicture] = useState(true);
+
+  const [text, updateText] = useState(true);
+
+  const opening = (
+    <p>
+      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend jr. Me he
+      reinventado como programadora y estoy descubriendo un mundo apasionante,
+      lleno de retos y posibilidades.
+    </p>
+  );
+
+  const newText = (
+    <p>
+      Lenguajes: HTML, CSS, JS, React, Typescript. Skills: Trabajo en equipo,
+      empática, comprometida, actitud positiva, ilusión. Aprendiendo: NodeJS,
+      Docker, Jest.
+    </p>
+  );
+
   return (
     <div className="aboutme-wrapper">
       <section className="gameboy nes-container with-title is-centered">
@@ -11,17 +33,14 @@ const Aboutme = () => {
         <div className="screen-container">
           <div className="screen">
             <img
-              className="screen_photo"
-              src={Arantxa}
+              className="screen_photo "
+              src={picture ? Arantxa : Arantxa8}
               alt="Arantxa Delgado"
               title="Arantxa Delgado"
             />
+
             <div className="nes-container is-rounded screen_text">
-              <p>
-                ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend
-                jr. Me he reinventado como programadora y estoy descubriendo un
-                mundo apasionante, lleno de retos y posibilidades.
-              </p>
+              {text ? opening : newText}
             </div>
           </div>
         </div>
@@ -45,8 +64,16 @@ const Aboutme = () => {
           </Link>
         </div>
         <div className="controls-container_AB">
-          <button className="controls-container_AB__A">A</button>
-          <button className="controls-container_AB__B">B</button>
+          <button
+            className="controls-container_AB__A"
+            onClick={() => updatePicture(!picture)}>
+            A
+          </button>
+          <button
+            className="controls-container_AB__B"
+            onClick={() => updateText(!text)}>
+            B
+          </button>
         </div>
         <div className="speakers">
           <div className="speakers-1"></div>

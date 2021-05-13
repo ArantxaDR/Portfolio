@@ -9,12 +9,14 @@ import "../../../node_modules/nes.css/css/nes.css";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <div className="projects-container__btn">
-        <Back />
-      </div>
-      <h1 className="projects-container__title">Proyectos</h1>
-      <div className="projects-container__list">
+    <div className="projects-wrapper">
+      <header className="projects-header">
+        <div className="projects-header__btn">
+          <Back />
+        </div>
+        <h1 className="projects-header__title">Proyectos</h1>
+      </header>
+      <div className="projects-list">
         {ProjectData.map((project: any, id: number) => (
           <Project project={project} key={id} />
         ))}

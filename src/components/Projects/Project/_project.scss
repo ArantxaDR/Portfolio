@@ -1,47 +1,64 @@
 @import "../../../styles/variables";
 
-.project-container {
-  border: 6px solid $colorcuaternary;
-  height: 25rem;
-  width: 18rem;
-  margin-right: 1rem;
-  background-color: $colorgrey;
-  border-radius: 1rem;
+.project-card {
+  height: 20rem;
+  width: 50%;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 0.4rem;
-  padding-top: 0;
-
-  &__list {
-    list-style: none;
-    width: fit-content;
-  }
-  &__listItem {
-    display: inline;
-    margin-right: 1rem;
-  }
-
-  &__img {
-    width: 70%;
-    object-fit: cover;
-    box-shadow: 0px 10px 10px -6px $colorcuaternary;
-    margin-bottom: 2vh;
-  }
+}
+.card-figure {
+  border: 0.2em solid $colorcuaternary;
+  position: relative;
+  height: 18rem;
+  width: 17rem;
+  overflow: hidden;
+  border-radius: 2em;
+  box-shadow: 0px 8px 20px $colorgrey;
+  margin-left: 0.7em;
+  background: $colorgrey;
   &__title {
+    font-size: 0.7rem;
+    transition: all 500ms ease-out;
+    padding: 0.5rem;
     text-align: center;
-    font-size: small;
   }
-  &__text {
-    color: $colorcuaternary;
-    font-family: $fontsecondary;
-    font-size: 1.7vh;
-    padding: 0.1em;
-    border-top: 0.2em solid $colorcuaternary;
-    border-bottom: 0.2em solid $colorcuaternary;
-    margin-bottom: 1em;
-    list-style: none;
-    line-height: 130%;
+  &__img {
+    width: 100%;
+    height: cover;
+    transition: all 500ms ease-out;
+  }
+  &__layer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(154, 180, 185, 0.8);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+    &__text {
+      font-size: 0.6rem;
+      text-align: left;
+      padding: 2rem;
+      list-style: none;
+      color: $colorcuaternary;
+      line-height: 230%;
+    }
+    &__list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-content: center;
+      align-items: center;
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+  }
+  &:hover > &__layer {
+    opacity: 1;
+    visibility: visible;
   }
 }

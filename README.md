@@ -1,5 +1,5 @@
-# Portfolio ArantxaDR
-## Portfolio Arantxa Delgado Ruiz, desarrolladora front end junior
+
+# Portfolio Arantxa Delgado Ruiz, desarrolladora front end junior
 
 
 ## Arranque del proyecto:

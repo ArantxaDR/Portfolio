@@ -20,9 +20,11 @@
   &__title {
     font-size: 0.7rem;
     transition: all 500ms ease-out;
-    padding: 0.5rem;
+    padding-top: 0.5rem;
     text-align: center;
+    margin-bottom: 0;
   }
+
   &__img {
     width: 100%;
     height: cover;
@@ -40,9 +42,9 @@
     text-align: center;
 
     &__text {
-      font-size: 0.6rem;
+      font-size: 0.5rem;
       text-align: left;
-      padding: 2rem;
+      padding: 0.4rem;
       list-style: none;
       color: $colorcuaternary;
       line-height: 230%;
@@ -54,7 +56,7 @@
       align-content: center;
       align-items: center;
       list-style: none;
-      margin-bottom: 2rem;
+      margin-top: 33%;
     }
   }
   &:hover > &__layer {

@@ -211,7 +211,7 @@
         border-radius: 100%;
         left: 15%;
         top: 50%;
-        outline: none;
+        outline-style: none !important;
         background-color: $colorgrey;
         color: $colorprimary;
       }
@@ -301,6 +301,7 @@
   .gameboy {
     width: 53rem;
     height: 25rem;
+    top: 10%;
     margin: auto;
     overflow: hidden;
   }

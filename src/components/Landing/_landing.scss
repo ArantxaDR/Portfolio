@@ -13,6 +13,10 @@
     margin-left: 15vh;
     margin-right: 15vh;
   }
+  &__img {
+    position: relative;
+    margin-right: 12rem;
+  }
 }
 
 .btn {
@@ -26,7 +30,10 @@
 
 @media all and (min-width: 420px) {
   .landing-wrapper {
-    padding-top: 33%;
+    padding-top: 20%;
+    &__img {
+      margin-right: 30rem;
+    }
   }
   .writer-text {
     font-size: 3vh;
@@ -37,11 +44,14 @@
 
 @media all and (min-width: 1024px) {
   .landing-wrapper {
-    padding-top: 10%;
+    padding-top: 8%;
     overflow: hidden;
     &__nes {
       margin-left: 10vw;
       margin-right: 10vw;
+    }
+    &__img {
+      margin-right: 55rem;
     }
   }
   .writer-text {

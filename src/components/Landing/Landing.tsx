@@ -1,7 +1,8 @@
 //Component
 import LandingButton from "../Buttons/landingBtn/LandingButton";
 import TypeWriter from "./TypeWriter";
-
+//imgs
+import pixelme from "../../assets/pixelme.png";
 //style
 import "./_landing.scss";
 
@@ -13,7 +14,11 @@ export default function Landing() {
         <main className=" nes-balloon from-left">
           <TypeWriter phrases={phrases} />
         </main>
-
+        <img
+          className="landing-wrapper__img"
+          src={pixelme}
+          alt="Avatar en pixelart de Arantxa"
+        />
         <div className="btn">
           <LandingButton />
         </div>

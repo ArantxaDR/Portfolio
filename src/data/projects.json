@@ -31,6 +31,15 @@
         "description": "App web de gestión de series.",
         "description2": "Tecnologías: JavaScript, HTML5, CSS3 y SASS.",
         "description3":"Otras herramientas: Gulp, Git y GitHub "
-    }
+    },
+    {"id": 3,
+        "name": "To-Do List",
+        "webpage": "https://arantxadr.github.io/ToDo-list/",
+        "repository": "https://github.com/ArantxaDR/ToDo-list",
+        "preview": "images/ToDo.png",
+        "alt":"Imagen de la aplicación To-Do List",
+        "description": "App web sencilla para las tareas diarias.",
+        "description2": "Tecnologías: React, Typescript, HTML5, Bootstrap y Bootswatch templates.",
+        "description3":"Otras herramientas: Git y GitHub "}
 
 ]

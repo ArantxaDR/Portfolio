@@ -35,7 +35,8 @@ Para la realización de este proyecto se han seguido las siguientes fases:
 
 #### Sobre mí
 
-![Aboutme](https://user-images.githubusercontent.com/70486185/118110780-1ec35d00-b3e3-11eb-8017-90eaf1ac655c.png)
+![Aboutme](https://user-images.githubusercontent.com/70486185/118799956-a60b4780-b89f-11eb-9d27-485a344dac8c.png)
+
 
 #### Contacto
 

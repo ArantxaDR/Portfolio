@@ -62,3 +62,7 @@
     visibility: visible;
   }
 }
+.item {
+  border: 0.2rem dashed $colorprimary;
+  padding: 0.2em;
+}

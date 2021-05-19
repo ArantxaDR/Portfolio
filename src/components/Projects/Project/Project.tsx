@@ -13,7 +13,7 @@ export default function Project({ project }: { project: any }) {
         />
         <h3 className="card-figure__title nes-text is-error">{project.name}</h3>
         <ul className="card-figure__layer__list">
-          <li>
+          <li className="item">
             <a
               target="_blank"
               rel="noreferrer"
@@ -24,7 +24,7 @@ export default function Project({ project }: { project: any }) {
                 title="Enlace a la demo"></span>
             </a>
           </li>
-          <li>
+          <li className="item">
             <a
               target="_blank"
               rel="noreferrer"

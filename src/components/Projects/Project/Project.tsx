@@ -20,7 +20,7 @@ export default function Project({ project }: { project: any }) {
 
         <div className="card-figure__layer">
           <ul className="card-figure__layer__list">
-            <li>
+            <li className="item">
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -31,7 +31,7 @@ export default function Project({ project }: { project: any }) {
                   title="Enlace a la demo"></span>
               </a>
             </li>
-            <li>
+            <li className="item">
               <a
                 target="_blank"
                 rel="noreferrer"

@@ -32,9 +32,6 @@ Para la realización de este proyecto se han seguido las siguientes fases:
 
 ![Landing](https://user-images.githubusercontent.com/70486185/118110615-ecb1fb00-b3e2-11eb-92b0-1873563d469a.png)
 
-#### Proyectos
-
-![Projects](https://user-images.githubusercontent.com/70486185/118110690-05baac00-b3e3-11eb-91e9-1a41f31c5087.png)
 
 #### Sobre mí
 

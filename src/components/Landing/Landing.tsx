@@ -6,7 +6,7 @@ import pixelme from "../../assets/pixelme.png";
 //style
 import "./_landing.scss";
 
-const phrases = "Hola, mi nombre es Arantxa y soy desarrolladora frontend Jr.";
+const phrases = "Hola, mi nombre es Arantxa y soy desarrolladora frontend.";
 export default function Landing() {
   return (
     <div className=" landing-wrapper">

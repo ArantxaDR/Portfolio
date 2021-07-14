@@ -16,7 +16,7 @@ const Contact = () => {
         <h1 className="section-container__title">Es peligroso salir solo.</h1>
         <h2 className="section-container__title">Usa esto</h2>
         <p className="section-container__text">
-          Tanto si estás buscando una desarrolladora frontend junior para una
+          Tanto si estás buscando una desarrolladora frontend para una
           nueva aventura como si crees que podemos colaborar y compartir
           conocimientos, no dudes en contactar.
         </p>
@@ -52,9 +52,22 @@ const Contact = () => {
                 title="Enlace a Linkedin"></i>
             </a>
           </li>
+          <li className="section-container__contactListItem twitter">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/Chopper_hat"
+              title="Access Twitter">
+              <i
+                className="nes-icon twitter is-large"
+                title="Enlace a Twitter"></i>
+            </a>
+          </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1Y7h1910kDy60c0yNJQeWBr9NNZFuNHFi/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+              href="https://drive.google.com/file/d/1048FEmD_EvlduivrgwYmLH5Xk0Ndqpem/view?usp=sharing"
               className="nes-badge is-icon">
               <span className="is-dark">hi</span>
               <span className="is-warning">CV</span>

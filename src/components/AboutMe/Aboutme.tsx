@@ -12,17 +12,14 @@ const Aboutme = () => {
 
   const opening = (
     <p>
-      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend jr. Me he
-      reinventado como programadora y estoy descubriendo un mundo apasionante,
-      lleno de retos y posibilidades.
+      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend. Estoy continuamente aprendiendo y la programación me anima a superar retos dia a día.
     </p>
   );
 
   const newText = (
     <p>
-      Lenguajes: HTML, CSS, JS, React, Typescript. Skills: Trabajo en equipo,
-      empática, comprometida, actitud positiva, ilusión. Aprendiendo: NodeJS,
-      Docker, Jest.
+      <strong>Lenguajes</strong>: HTML, CSS, JS, React, Typescript, Docker, Jest. <strong>Skills</strong>: Trabajo en equipo,
+      empática, comprometida, actitud positiva, ilusión. <strong>Aprendiendo</strong>: Angular.
     </p>
   );
 

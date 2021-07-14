@@ -1,6 +1,7 @@
 @import "../../styles/variables";
 
 .projects-wrapper {
+ 
   width: 100%;
   height: calc(100vh - 6vh);
   background-image: url(../../assets/back-projects.jpg);
@@ -10,68 +11,43 @@
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
-.projects-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  &__title {
+ 
+.projects-btn {
+   position: relative;
+   left: 6rem;
+   top: .75rem;
+}
+.projects-title {
     color: $colorprimary;
     font-family: $fontprimary;
-    margin-top: 0.5rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: .50rem;
+    text-align: center;
   }
-  &__btn {
-    margin-top: 0.7rem;
-  }
-}
+
 .projects-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+ row-gap: .50rem; 
 }
+
+
 
 //Tablet
 @media all and (min-width: 768px) {
-  .projects-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: center;
-    align-items: flex-start;
+  .projects-btn{
+    left:2rem;
   }
   .projects-list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 //Desktop
 @media all and (min-width: 1024px) {
-  .projects-wrapper {
-    overflow: hidden;
-    .projects-header {
-      justify-content: space-evenly;
-      margin-bottom: 3em;
-      margin-top: 2rem;
-      &__title {
-        margin-right: 20rem;
-      }
-    }
-
-    .projects-list {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      align-content: center;
-      justify-content: center;
-      align-items: center;
-    }
+  .projects-title{
+    margin-bottom: 1rem;
   }
+    .projects-list {
+      grid-template-columns: repeat(3, 1fr); 
+    }
+  
 }

@@ -1,7 +1,7 @@
 @import "../../styles/variables";
 
 .contact-wrapper {
-  height: calc(100vh - 6vh);
+  
   width: 100%;
   background-image: url(../../assets/back-contact.jpg);
   background-position: center;
@@ -36,12 +36,18 @@
     text-align: center;
   }
   &__contactList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
     list-style: none;
     margin-top: 3em;
     margin-bottom: 2em;
   }
   &__contactListItem {
-    display: inline;
+    
     padding-right: 2em;
   }
 }
@@ -54,6 +60,9 @@
 //media tablet
 
 @media all and (min-width: 768px) {
+  .contact-wrapper{
+    height: calc(100vh - 6vh);
+  }
   .heart-container {
     margin-right: 10%;
   }
@@ -72,9 +81,13 @@
   }
   .section-container {
     width: 80%;
-    margin-left: 11%;
+    margin-left: 10%;
     &__text {
       width: 70%;
+      margin-top: 3%;
+    }
+    &__contactList{
+      margin-top: 8%;
     }
   }
 }

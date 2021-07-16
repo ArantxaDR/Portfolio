@@ -10,12 +10,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 15vh;
-    margin-right: 15vh;
+    align-content: center;
+   
   }
-  &__img {
-    position: relative;
-    margin-right: 12rem;
+  &__avatar {
+       width: 100%;
   }
 }
 
@@ -31,9 +30,7 @@
 @media all and (min-width: 420px) {
   .landing-wrapper {
     padding-top: 20%;
-    &__img {
-      margin-right: 30rem;
-    }
+    
   }
   .writer-text {
     font-size: 3vh;
@@ -50,9 +47,7 @@
       margin-left: 10vw;
       margin-right: 10vw;
     }
-    &__img {
-      margin-right: 75rem;
-    }
+    
   }
   .nes-balloon{
     padding: 0.5rem;

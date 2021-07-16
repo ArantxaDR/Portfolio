@@ -14,11 +14,11 @@ export default function Landing() {
         <main className=" nes-balloon from-left">
           <TypeWriter phrases={phrases} />
         </main>
+        <figure className="landing-wrapper__avatar">
         <img
-          className="landing-wrapper__img"
           src={pixelme}
           alt="Avatar en pixelart de Arantxa"
-        />
+        /></figure>
         <div className="btn">
           <LandingButton />
         </div>

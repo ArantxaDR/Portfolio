@@ -12,7 +12,7 @@ const Aboutme = () => {
 
   const opening = (
     <p>
-      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend. Estoy continuamente aprendiendo y la programación me anima a superar retos dia a día.
+      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend. Estoy continuamente aprendiendo y la programación me anima a superar retos día a día.
     </p>
   );
 

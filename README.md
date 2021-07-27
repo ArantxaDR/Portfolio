@@ -14,7 +14,7 @@
 ```
 
 
-- Para publicar el proyecto a producción 
+- Para subir el proyecto a producción 
 ```
 # npm run build
 ```
@@ -46,45 +46,16 @@ Para la realización de este proyecto se han seguido las siguientes fases:
 
 ![Contact](https://user-images.githubusercontent.com/70486185/118111262-c0e34500-b3e3-11eb-8b07-8c72ac61da1a.png)
 
-## Estructuración del código:
+## :open_file_folder: Estructuración del código:
 
-```
-src
- ├─ assets
- ├─ components
- |  ├─ AboutMe
- |  |   ├─aboutme.scss
- |  |   ├─Aboutme.tsx
- |  |
- |  ├─ Buttons
- |  |   ├─backBtn
- |  |   |    ├─Back.tsx
- |  |   ├─landingBtn
- |  |        ├─LandingButton.tsx
- |  |
- |  ├─Contact
- |  |   ├─contact.scss
- |  |   ├─Contact.tsx
- |  ├─Footer
- |  |   ├─footer.scss
- |  |   ├─Footer.tsx
- |  ├─Landing
- |  |   ├─landing.scss
- |  |   ├─Landing.tsx
- |  ├─Projects
- |  |   ├─Project
- |  |   |   ├─project.scss
- |  |   |   ├─Project.tsx
- |  |   ├─projects.scss
- |  |   ├─Projects.tsx
- ├─ data
- |  ├─projects.json
- ├─ styles
- |  ├─App.scss
- |  ├─index.scss
- |  ├─variables.scss
- ├─ App.tsx
- ├─ index.tsx
- ├─ react-app-env.d.ts
-
-```
+- Assets:
+    - Imágnes que se van a usar durante el proyecto.
+- Components: dentro de cada carpeta de componente se encuentra también la hoja de estilos del mismo
+    - AboutMe
+    - Buttons
+    - Contact
+    - Footer
+    - Landing
+    - Projects:
+        - Project
+    

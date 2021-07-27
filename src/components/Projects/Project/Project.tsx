@@ -1,25 +1,25 @@
 //styles
-import "./_proyect.scss";
+import "./_project.scss";
 import "../../../../node_modules/nes.css/css/nes.css";
 
-export default function Proyect({ proyect }: { proyect: any }) {
+export default function Project({ project }: { project: any }) {
   return (
   
       <div className="card">
         
         
-        <h3 className="card-title nes-text is-error">{proyect.name}</h3>
+        <h3 className="card-title nes-text is-error">{project.name}</h3>
         
         <img className="card-img"
-          src={proyect.preview}
-          alt={proyect.alt}
+          src={project.preview}
+          alt={project.alt}
         /> 
        
       
                  
         <ul className="card-text ">
-          <li>{proyect.description}</li>
-          <li>{proyect.description2}</li>
+          <li>{project.description}</li>
+          <li>{project.description2}</li>
         </ul>
                 
         <ul className="card-icons">
@@ -27,7 +27,7 @@ export default function Proyect({ proyect }: { proyect: any }) {
             <a
                 target="_blank"
                 rel="noreferrer"
-                href={proyect.webpage}
+                href={project.webpage}
                 title="Demo">
               <span
                   className="nes-logo is-small"
@@ -38,7 +38,7 @@ export default function Proyect({ proyect }: { proyect: any }) {
             <a
               target="_blank"
               rel="noreferrer"
-              href={proyect.repository}
+              href={project.repository}
               title="Repository">
               <span
                 className="nes-octocat animate is-small"

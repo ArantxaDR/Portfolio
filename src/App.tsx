@@ -5,7 +5,7 @@ import { Route } from "react-router-dom";
 import Landing from "./components/Landing/Landing";
 import Aboutme from "./components/AboutMe/Aboutme";
 import Contact from "./components/Contact/Contact";
-import Proyects from "./components/Proyects/Proyects";
+import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
 //Styles
@@ -18,7 +18,7 @@ function App() {
         <Route exact path="/" component={Landing} />
         <Route path="/aboutme" component={Aboutme} />
         <Route path="/contact" component={Contact} />
-        <Route path="/proyects" component={Proyects} />
+        <Route path="/projects" component={Projects} />
         <Footer />
       </main>
     </>

@@ -60,8 +60,8 @@ Para la realización de este proyecto se han seguido las siguientes fases:
         - Proyects:
             - Proyect
 - Data:
-    - Json con los poryectos 
-        - Proects.json
+    - Json con los proyectos 
+        - Projects.json
 - Styles: 
     - Estilos generales y variables 
         - App.scss

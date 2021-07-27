@@ -1,6 +1,6 @@
 # Portfolio Arantxa Delgado Ruiz, desarrolladora front end 
 
-## Arranque del proyecto:
+## :computer: Arranque del proyecto:
 
 - Para instalar las dependencias 
 ```
@@ -19,7 +19,7 @@
 # npm run build
 ```
 
-### Tecnologías
+### :wrench: Tecnologías
 
 - [React](https://es.reactjs.org/)
     - [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)

@@ -58,4 +58,9 @@ Para la realización de este proyecto se han seguido las siguientes fases:
     - Landing
     - Projects:
         - Project
-    
+- Data:
+    - Projects.json
+- Styles: estilos generales y variables 
+    - App.scss
+    - index.scss
+    - variables.scss

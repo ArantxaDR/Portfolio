@@ -4,37 +4,33 @@
 
 - Para instalar las dependencias 
 ```
-npm install
+# npm install
 ```
 
 
 - Para arrancar el proyecto y probarlo en desarrollo a través de la URL '//localhost:3000/#/'
 ```
-npm start
+# npm start
 ```
 
 
 - Para publicar el proyecto a producción 
 ```
-npm run build
+# npm run build
 ```
 
-### Descripción
+### Tecnologías
 
-Realización de un portfolio personal para la presentación de proyectos:
-
-    • Uso de Sass y Ness.css (https://nostalgic-css.github.io/NES.css/) para los estilos
-    • Uso de React y Typescript para la estructuración del JS de la aplicación
-    • Uso de mediaqueries para que el diseño sea adaptable al dispositivo
-    • Desarrollo usando la estrategia mobile first
-    • Uso de git para el control de versiones del proyecto, con ramas.
-    • Uso de react-router para navegar en la página entre las secciones de contacto, proyectos e inicio.
+- [React] (https://es.reactjs.org/)
+    - [React-Router-Dom] (https://reactrouter.com/web/guides/quick-start)
+- [Nes.css] (https://nostalgic-css.github.io/NES.css/)
+- [Git] (https://git-scm.com/)
 
 Para la realización de este proyecto se han seguido las siguientes fases:
 
-    • Diseño de la apariencia del portfolio y organización de contenidos en secciones.
-    • Desarrollo del código JS dentro de React para las funcionalidades requeridas en el portfolio.
-    • Maquetación de la web.
+- Diseño de la apariencia del portfolio y organización de contenidos en secciones.
+- Desarrollo del código JS dentro de React para las funcionalidades requeridas en el portfolio.
+- Maquetación de la web.
 
 #### Landing
 

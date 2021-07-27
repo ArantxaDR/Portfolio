@@ -50,17 +50,20 @@ Para la realización de este proyecto se han seguido las siguientes fases:
 
 - Assets:
     - Imágnes que se van a usar durante el proyecto.
-- Components: dentro de cada carpeta de componente se encuentra también la hoja de estilos del mismo
-    - AboutMe
-    - Buttons
-    - Contact
-    - Footer
-    - Landing
-    - Projects:
-        - Project
+- Components: 
+    - Dentro de cada carpeta de componente se encuentra también la hoja de estilos del mismo
+        - AboutMe
+        - Buttons
+        - Contact
+        - Footer
+        - Landing
+        - Proyects:
+            - Proyect
 - Data:
-    - Projects.json
-- Styles: estilos generales y variables 
-    - App.scss
-    - index.scss
-    - variables.scss
+    - Json con los poryectos 
+        - Proects.json
+- Styles: 
+    - Estilos generales y variables 
+        - App.scss
+        - index.scss
+        - variables.scss

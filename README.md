@@ -1,15 +1,23 @@
-# Portfolio Arantxa Delgado Ruiz, desarrolladora front end junior
+# Portfolio Arantxa Delgado Ruiz, desarrolladora front end 
 
 ## Arranque del proyecto:
 
-- npm install: Para instalar las dependencias 
-<img width="624" alt="install" src="https://user-images.githubusercontent.com/69849664/101142786-61a02e00-3616-11eb-877a-cff3666ceee5.PNG">
+- Para instalar las dependencias 
+```
+npm install
+```
 
-- npm start: Para arrancar el proyecto y probarlo en desarrollo a través de la URL '//localhost:3000/#/'
-<img width="625" alt="start" src="https://user-images.githubusercontent.com/69849664/101142795-649b1e80-3616-11eb-9c46-ea5a31cef5a2.PNG">
 
-- npm run build/mv build docs: Para publicar el proyecto a producción 
-<img width="628" alt="build" src="https://user-images.githubusercontent.com/69849664/101142807-66fd7880-3616-11eb-9b84-2c1ecd7a9672.PNG">
+- Para arrancar el proyecto y probarlo en desarrollo a través de la URL '//localhost:3000/#/'
+```
+npm start
+```
+
+
+- Para publicar el proyecto a producción 
+```
+npm run build
+```
 
 ### Descripción
 

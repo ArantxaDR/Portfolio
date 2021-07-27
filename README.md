@@ -21,10 +21,10 @@
 
 ### Tecnologías
 
-- [React] (https://es.reactjs.org/)
-    - [React-Router-Dom] (https://reactrouter.com/web/guides/quick-start)
-- [Nes.css] (https://nostalgic-css.github.io/NES.css/)
-- [Git] (https://git-scm.com/)
+- [React](https://es.reactjs.org/)
+    - [React-Router-Dom](https://reactrouter.com/web/guides/quick-start)
+- [Nes.css](https://nostalgic-css.github.io/NES.css/)
+- [Git](https://git-scm.com/)
 
 Para la realización de este proyecto se han seguido las siguientes fases:
 

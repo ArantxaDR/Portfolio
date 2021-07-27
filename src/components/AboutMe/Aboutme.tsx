@@ -6,20 +6,23 @@ import avatar from "../../assets/Arantxa.jpg";
 import avatar8bits from "../../assets/Arantxa8bits.jpg";
 
 const Aboutme = () => {
-  const [picture, updatePicture] = useState(true);
+  const [picture, setPicture] = useState(true);
 
-  const [text, updateText] = useState(true);
+  const [text, setText] = useState(true);
 
-  const opening = (
+  const openingText = (
     <p>
-      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend. Estoy continuamente aprendiendo y la programación me anima a superar retos día a día.
+      ¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend.<br/> 
+      Estoy continuamente aprendiendo y la programación me anima a superar retos día a día.
     </p>
   );
 
   const newText = (
     <p>
-      <strong>Lenguajes</strong>: HTML, CSS, JS, React, Typescript, Docker, Jest. <strong>Skills</strong>: Trabajo en equipo,
-      empática, comprometida, actitud positiva, ilusión. <strong>Aprendiendo</strong>: Angular.
+      <strong>Lenguajes</strong>: React, Typescript, HTML, CSS, JS, Docker, Jest, Cypress.<br/>
+      <strong>Skills</strong>: Trabajo en equipo,
+      empática, comprometida, actitud positiva, ilusión.<br/> 
+      <strong>Aprendiendo</strong>: Angular.
     </p>
   );
 
@@ -37,7 +40,7 @@ const Aboutme = () => {
             />
 
             <div className="nes-container is-rounded screen_text">
-              {text ? opening : newText}
+              {text ? openingText : newText}
             </div>
           </div>
         </div>
@@ -63,12 +66,12 @@ const Aboutme = () => {
         <div className="controls-container_AB">
           <button
             className="controls-container_AB__A"
-            onClick={() => updatePicture(!picture)}>
+            onClick={() => setPicture(!picture)}>
             A
           </button>
           <button
             className="controls-container_AB__B"
-            onClick={() => updateText(!text)}>
+            onClick={() => setText(!text)}>
             B
           </button>
         </div>

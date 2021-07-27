@@ -139,6 +139,7 @@
       }
     }
   }
+  
   .controls-container {
     display: block;
     position: relative;
@@ -305,5 +306,8 @@
     top: 10%;
     margin: auto;
     overflow: hidden;
+  }
+  .p{
+    white-space: pre-line;
   }
 }

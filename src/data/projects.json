@@ -6,7 +6,7 @@
         "preview":"images/drag-img.png",
         "alt":"Imagen de la aplicación Drag Race Game",
         "description": "Juego de memoria con la API de RuPaul's Drag Race.",
-        "description2": "Tecnologías: JavaScript, CSS, Lit, HTML, Webpack y Docker."},
+        "tools": "Tecnologías: JavaScript, CSS, Lit, HTML, Webpack y Docker."},
     {
         "id": 1,
         "name": "Catrina's profile-cards",
@@ -15,7 +15,7 @@
         "preview":"images/catrina.png",
         "alt":"Imagen de la aplicación de Catrina's",
         "description": "App web de creación de tarjetas de visita.",
-        "description2": "Tecnologías: JavaScript, CSS, SASS y HTML."
+        "tools": "Tecnologías: JavaScript, CSS, SASS y HTML."
         
     },
     {
@@ -26,7 +26,7 @@
         "preview": "images/Rick.png",
         "alt":"Imagen de la aplicación de Rick y Morty",
         "description": "App web de búsqueda de personajes de Rick y Morty.  ",
-        "description2": "Tecnologías: React, JavaScript, HTML5, CSS3 y SASS."
+        "tools": "Tecnologías: React, JavaScript, HTML5, CSS3 y SASS."
        
     },
     {
@@ -37,7 +37,7 @@
         "preview": "images/series.png",
         "alt":"Imagen de la aplicación buscador de series",
         "description": "App web de gestión de series.",
-        "description2": "Tecnologías: JavaScript, HTML5, CSS3 y SASS."
+        "tools": "Tecnologías: JavaScript, HTML5, CSS3 y SASS."
        
     },
     {"id": 4,
@@ -47,7 +47,7 @@
         "preview": "images/ToDo.png",
         "alt":"Imagen de la aplicación To-Do List",
         "description": "App web sencilla para las tareas diarias.",
-        "description2": "Tecnologías: React, Typescript, HTML5, Bootstrap y Bootswatch templates."}
+        "tools": "Tecnologías: React, Typescript, HTML5, Bootstrap y Bootswatch templates."}
         
 
 ]

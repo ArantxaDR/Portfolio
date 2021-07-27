@@ -19,7 +19,7 @@ export default function Project({ project }: { project: any }) {
                  
         <ul className="card-text ">
           <li>{project.description}</li>
-          <li>{project.description2}</li>
+          <li>{project.tools}</li>
         </ul>
                 
         <ul className="card-icons">

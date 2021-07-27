@@ -32,20 +32,6 @@ Para la realización de este proyecto se han seguido las siguientes fases:
 - Desarrollo del código JS dentro de React para las funcionalidades requeridas en el portfolio.
 - Maquetación de la web.
 
-#### Landing
-
-![Landing](https://user-images.githubusercontent.com/70486185/118110615-ecb1fb00-b3e2-11eb-92b0-1873563d469a.png)
-
-
-#### Sobre mí
-
-![Aboutme](https://user-images.githubusercontent.com/70486185/118799956-a60b4780-b89f-11eb-9d27-485a344dac8c.png)
-
-
-#### Contacto
-
-![Contact](https://user-images.githubusercontent.com/70486185/118111262-c0e34500-b3e3-11eb-8b07-8c72ac61da1a.png)
-
 ## :open_file_folder: Estructuración del código:
 
 - Assets:
@@ -67,3 +53,19 @@ Para la realización de este proyecto se han seguido las siguientes fases:
         - App.scss
         - index.scss
         - variables.scss
+
+
+#### Landing
+
+![Landing](https://user-images.githubusercontent.com/70486185/118110615-ecb1fb00-b3e2-11eb-92b0-1873563d469a.png)
+
+
+#### Sobre mí
+
+![Aboutme](https://user-images.githubusercontent.com/70486185/118799956-a60b4780-b89f-11eb-9d27-485a344dac8c.png)
+
+
+#### Contacto
+
+![Contact](https://user-images.githubusercontent.com/70486185/118111262-c0e34500-b3e3-11eb-8b07-8c72ac61da1a.png)
+

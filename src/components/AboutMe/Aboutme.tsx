@@ -7,12 +7,12 @@ import avatar from "../../assets/Arantxa.jpg";
 import avatar8bits from "../../assets/Arantxa8bits.jpg";
 
 const openingText = (
-	<p>¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend.Estoy continuamente aprendiendo y la programación me anima a superar retos día a día.
+	<p>¡Hola mundo! Mi nombre es Arantxa y soy desarrolladora frontend. Estoy continuamente aprendiendo y la programación me anima a superar retos día a día.
 	</p>
 );
 
 const newText = (
-	<p><strong>Lenguajes</strong>: React, Typescript, HTML, CSS, JS, Docker, Jest, Cypress.<br/><strong>Skills</strong>: Trabajo en equipo,empática, comprometida, actitud positiva, ilusión.<br/><strong>Aprendiendo</strong>: Angular.
+	<p><strong>Lenguajes</strong>: React, Typescript, HTML, CSS, JS, Vue, Material-UI.<br/><strong>Skills</strong>: Trabajo en equipo, empática, comprometida, actitud positiva, ilusión.<br/><strong>Aprendiendo</strong>: Angular.
 	</p>
 );
 

@@ -63,7 +63,7 @@ const Contact = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://drive.google.com/file/d/1048FEmD_EvlduivrgwYmLH5Xk0Ndqpem/view?usp=sharing"
+							href="https://drive.google.com/file/d/1H_OLlr5Mx-ICZ9JNrAFULZkQxl3qo_xK/view?usp=sharing"
 							className="nes-badge is-icon">
 							<span className="is-dark">hi</span>
 							<span className="is-warning">CV</span>

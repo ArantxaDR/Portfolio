@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.e0e89fae.chunk.css",
+    "main.js": "/Portfolio/static/js/main.6c75d471.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.6c75d471.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.c74a019d.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c74a019d.js.map",
+    "static/css/2.63faaec3.chunk.css": "/Portfolio/static/css/2.63faaec3.chunk.css",
+    "static/js/2.435a3051.chunk.js": "/Portfolio/static/js/2.435a3051.chunk.js",
+    "static/js/2.435a3051.chunk.js.map": "/Portfolio/static/js/2.435a3051.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "static/css/2.63faaec3.chunk.css.map": "/Portfolio/static/css/2.63faaec3.chunk.css.map",
+    "static/css/main.e0e89fae.chunk.css.map": "/Portfolio/static/css/main.e0e89fae.chunk.css.map",
+    "static/js/2.435a3051.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.435a3051.chunk.js.LICENSE.txt",
+    "static/media/Arantxa.242acb28.jpg": "/Portfolio/static/media/Arantxa.242acb28.jpg",
+    "static/media/Arantxa8bits.3c292b9a.jpg": "/Portfolio/static/media/Arantxa8bits.3c292b9a.jpg",
+    "static/media/_aboutme.scss": "/Portfolio/static/media/back-aboutme.18f65a95.jpg",
+    "static/media/_contact.scss": "/Portfolio/static/media/back-contact.90246e02.jpg",
+    "static/media/_projects.scss": "/Portfolio/static/media/back-projects.73683196.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c74a019d.js",
+    "static/css/2.63faaec3.chunk.css",
+    "static/js/2.435a3051.chunk.js",
+    "static/css/main.e0e89fae.chunk.css",
+    "static/js/main.6c75d471.chunk.js"
+  ]
+}

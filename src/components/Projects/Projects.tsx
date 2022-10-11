@@ -16,7 +16,7 @@ const Projects = () => {
 			<h1 className="projects-title">Proyectos</h1>
      
 			<section className="projects-list">
-				{ProjectData.map((project: any, id: number) => (
+				{ProjectData.map((project, id: number) => (
 					<Project project={project} key={id} />
 				))}
 			</section>

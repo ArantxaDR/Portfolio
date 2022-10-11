@@ -1,8 +1,10 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import React from "react";
 import "./_project.scss";
 import "../../../../node_modules/nes.css/css/nes.css";
+import { ProjectInterface } from "../../../shared/projectInterface";
 
-export default function Project({ project }: { project: any }) {
+export default function Project({ project }: { project: ProjectInterface }) {
 	return (
   
 		<div className="card">

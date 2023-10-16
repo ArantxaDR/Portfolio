@@ -52,7 +52,7 @@ const Contact = () => {
 						<a
 							target="_blank"
 							rel="noreferrer"
-							href="https://twitter.com/Chopper_hat"
+							href="https://twitter.com/arantxa_dr"
 							title="Access Twitter">
 							<i
 								className="nes-icon twitter is-large"
